@@ -3,14 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") El siguiente esquema presenta el resumen de las temáticas desarrolladas en el componente formativo, destacando la importancia de los sistemas de gestión del riesgo y la seguridad de la información para el logro de los objetivos empresariales y contribución al proceso de mejora continua de las organizaciones: 
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="")
       .col-auto(data-aos="fade-left")
-        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

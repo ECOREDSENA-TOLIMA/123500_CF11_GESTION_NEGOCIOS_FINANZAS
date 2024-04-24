@@ -166,27 +166,27 @@ export default {
     {
       termino: 'Datos',
       significado:
-        'Cualquier objeto que pueda entregar información o significado para el lector. El dato puede ser manipulable en forma manuscrita o por medio de un computador. Puede ser un carácter capturado desde un teclado, extraído de algún espacio de memoria en el disco, almacenado en la memoria central, etc.',
+        'cualquier objeto que pueda entregar información o significado para el lector. El dato puede ser manipulable en forma manuscrita o por medio de un computador. Puede ser un carácter capturado desde un teclado, extraído de algún espacio de memoria en el disco, almacenado en la memoria central, etc.',
     },
     {
       termino: 'Gestión de riesgo',
       significado:
-        'Proceso que afecta a todos los órganos directivos y laborales de la organización (junta directiva, administrativos y empleados).',
+        'proceso que afecta a todos los órganos directivos y laborales de la organización (junta directiva, administrativos y empleados).',
     },
     {
       termino: 'Mapa de riesgos',
       significado:
-        'Identifica de forma gráfica los riesgos a los que se expone una empresa, teniendo en cuenta la probabilidad y el impacto que pueden causar.',
+        'identifica de forma gráfica los riesgos a los que se expone una empresa, teniendo en cuenta la probabilidad y el impacto que pueden causar.',
     },
     {
       termino: 'Riesgo',
       significado:
-        'Probabilidad de que un evento desafortunado ocurra y genere consecuencias a una persona, entidad o cosa.',
+        'probabilidad de que un evento desafortunado ocurra y genere consecuencias a una persona, entidad o cosa.',
     },
     {
       termino: 'Seguridad de la información',
       significado:
-        'Se encarga de proteger los datos contra robo de información, acceso no autorizado, obstaculización al sistema informático, manipulación y/o eliminación de los datos.',
+        'se encarga de proteger los datos contra robo de información, acceso no autorizado, obstaculización al sistema informático, manipulación y/o eliminación de los datos.',
     },
   ],
   referencias: [

@@ -41,3 +41,203 @@
 
   100%
     transform: translateX(0px)
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .tituhoja
+    height: 50px
+
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  .tarjmovil
+    height: 291px;
+  .colortarj-1
+    width: 85% !important
+  .colortarj-2
+    width: 85% !important
+  .tabla-a table
+    min-width: 864px
+
+.bg-color-1
+  background-image: url("../assets/curso/temas/back_ico_1.svg") !important
+  background-repeat: no-repeat 
+  margin-top: -20px
+  
+.h4
+  color: #0C5E46 !important
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+  
+//Tema 1
+.tarjeta--verde
+  background-color: #0C5E46
+  h3, p 
+    color: white !important
+
+.tarjeta--verde2
+  background-color: #E1EFE3
+
+.cajonradius
+  background-color: #0C5E46
+.pasos-b__header__btn--left 
+  background-color: #FCC15A
+  border: solid 1px #FCC15A
+.pasos-b__header__btn--right
+  background-color: #FCC15A
+  border: solid 1px #FCC15A
+.pasos-b__header__item--before .pasos-b__header__item__dot
+    border-color: #6DEBFF
+    background-color: #6DEBFF
+.pasos-b__header__item__dot i
+  color: #000
+  display: none
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FCC15A
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FEF5E5
+.acordion__accion__btn--b
+  background-color: #FCC15A
+  border: solid 1px #FCC15A
+.acordion__activo
+  background-color: #E1EFE3  
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #EEAC3A !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF 
+
+.cblanco
+  background-color: white  
+  .fa, .fas
+    font-weight: 900
+    color: #6DEBFF
+    font-size: 9px
+  .rojo
+    color: #FF4B1D
+  .amarillo
+      color: #DCDC0B
+  .verd
+      color: #59C433
+.bgslyder  
+  background-image: url("../assets/curso/temas/tema1/bgslyder.png")
+  background-repeat: no-repeat  
+  padding: 5px
+.bgazul  
+  background-image: url("../assets/curso/temas/tema1/bgazul.png")
+  background-repeat: no-repeat
+.bgverde
+  background-image: url("../assets/curso/temas/tema1/bgverde.png")
+  background-repeat: no-repeat
+
+.bloque-texto-d.color-secundario:before
+    background-color: #E1EFE3
+.bg1
+  background-color: #E1EFE3
+.bg2
+  background-color: #FEF5E5  
+
+.cblanco1
+  background-color: #E1EFE3  
+  .fa, .fas
+    font-weight: 900
+    color: #6DEBFF
+    font-size: 9px
+.cblanco2
+  .fa, .fas
+    font-weight: 900
+    color: #6DEBFF

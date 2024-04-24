@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="569" height="434.069" viewBox="0 0 569 434.069">
+  <g id="Grupo_1077066" data-name="Grupo 1077066" transform="translate(5813.667 -727.51)">
+    <rect id="Rectángulo_380634" data-name="Rectángulo 380634" width="569" height="426.069" rx="10" transform="translate(-5813.667 727.51)" fill="#f6f6f6"/>
+    <text id="Probabilidad_de_ocurrencia_" data-name="Probabilidad de ocurrencia
+" transform="translate(-5785.667 1011.504) rotate(-90)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Probabilidad de ocurrencia</tspan><tspan x="0" y="24"></tspan></text>
+    <text id="Consecuencias_" data-name="Consecuencias
+" transform="translate(-5498.334 1133.579)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Consecuencias</tspan><tspan x="0" y="24"></tspan></text>
+    <g id="Grupo_1076564" data-name="Grupo 1076564" transform="translate(-6612.702 -12069.49)">
+      <g id="Grupo_1076565" data-name="Grupo 1076565" transform="translate(853.236 13119.143) rotate(90)">
+        <path id="Trazado_213857" data-name="Trazado 213857" d="M2.754,0,0,2.753l8.114,8.115L0,18.983l2.754,2.753L13.622,10.868Z" transform="translate(6.779 0)" fill="#18b8c4"/>
+        <path id="Trazado_213858" data-name="Trazado 213858" d="M0,2.753,4.265,7.018,0,11.283l2.753,2.753L9.773,7.018,2.753,0Z" transform="translate(0 3.85)" fill="#18b8c4"/>
+      </g>
+      <g id="Grupo_1076566" data-name="Grupo 1076566" transform="translate(831.5 12832.395) rotate(-90)">
+        <path id="Trazado_213857-2" data-name="Trazado 213857" d="M2.754,0,0,2.753l8.114,8.115L0,18.983l2.754,2.753L13.622,10.868Z" transform="translate(6.779 0)" fill="#18b8c4"/>
+        <path id="Trazado_213858-2" data-name="Trazado 213858" d="M0,2.753,4.265,7.018,0,11.283l2.753,2.753L9.773,7.018,2.753,0Z" transform="translate(0 3.85)" fill="#18b8c4"/>
+      </g>
+      <path id="Trazado_613144" data-name="Trazado 613144" d="M600,17736.367v-297.631" transform="translate(242.368 -4610.824)" fill="none" stroke="#18b8c4" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1076565-2" data-name="Grupo 1076565" transform="translate(-18415.328 1950.079) rotate(-90)">
+      <g id="Grupo_1076565-3" data-name="Grupo 1076565" transform="translate(853.236 13119.143) rotate(90)">
+        <path id="Trazado_213857-3" data-name="Trazado 213857" d="M2.754,0,0,2.753l8.114,8.115L0,18.983l2.754,2.753L13.622,10.868Z" transform="translate(6.779 0)" fill="#18b8c4"/>
+        <path id="Trazado_213858-3" data-name="Trazado 213858" d="M0,2.753,4.265,7.018,0,11.283l2.753,2.753L9.773,7.018,2.753,0Z" transform="translate(0 3.85)" fill="#18b8c4"/>
+      </g>
+      <g id="Grupo_1076566-2" data-name="Grupo 1076566" transform="translate(831.5 12832.395) rotate(-90)">
+        <path id="Trazado_213857-4" data-name="Trazado 213857" d="M2.754,0,0,2.753l8.114,8.115L0,18.983l2.754,2.753L13.622,10.868Z" transform="translate(6.779 0)" fill="#18b8c4"/>
+        <path id="Trazado_213858-4" data-name="Trazado 213858" d="M0,2.753,4.265,7.018,0,11.283l2.753,2.753L9.773,7.018,2.753,0Z" transform="translate(0 3.85)" fill="#18b8c4"/>
+      </g>
+      <path id="Trazado_613144-2" data-name="Trazado 613144" d="M600,17736.367v-297.631" transform="translate(242.368 -4610.824)" fill="none" stroke="#18b8c4" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1076568" data-name="Grupo 1076568" transform="translate(-6623.334 -12069.49)">
+      <text id="Casi_cierto" data-name="Casi cierto" transform="translate(906.667 12849)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Casi cierto</tspan></text>
+      <text id="Probable" transform="translate(919.667 12907)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Probable</tspan></text>
+      <text id="Moderado" transform="translate(910.667 12965)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Moderado</tspan></text>
+      <text id="Poco_probable" data-name="Poco probable" transform="translate(879.667 13022)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Poco probable</tspan></text>
+      <text id="Casi_imporbable" data-name="Casi imporbable" transform="translate(866.667 13080)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Casi imporbable</tspan></text>
+    </g>
+    <g id="Grupo_1076569" data-name="Grupo 1076569" transform="translate(-6623.334 -12069.49)">
+      <text id="Extremo" transform="translate(997.667 13139)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Extremo</tspan></text>
+      <text id="Muy_alto" data-name="Muy alto" transform="translate(1084.667 13139)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Muy alto</tspan></text>
+      <text id="Medio" transform="translate(1178.667 13139)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Medio</tspan></text>
+      <text id="Bajo" transform="translate(1255.667 13139)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Bajo</tspan></text>
+      <text id="Mínimo" transform="translate(1313.667 13139)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Mínimo</tspan></text>
+    </g>
+    <g id="Grupo_1076567" data-name="Grupo 1076567" transform="translate(-6623.001 -12069.49)">
+      <rect id="Rectángulo_380635" data-name="Rectángulo 380635" width="75" height="75" transform="translate(999.334 12825)" fill="#eba325"/>
+      <rect id="Rectángulo_380636" data-name="Rectángulo 380636" width="75" height="75" transform="translate(1073.334 12825)" fill="#eba325"/>
+      <rect id="Rectángulo_380637" data-name="Rectángulo 380637" width="75" height="38" transform="translate(1148.334 12862)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380638" data-name="Rectángulo 380638" width="75" height="38" transform="translate(1220.334 12862)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380639" data-name="Rectángulo 380639" width="75" height="38" transform="translate(1220.334 12899)" fill="#e1fbff"/>
+      <rect id="Rectángulo_380640" data-name="Rectángulo 380640" width="75" height="38" transform="translate(1220.334 12974)" fill="#0c5e46"/>
+      <rect id="Rectángulo_380641" data-name="Rectángulo 380641" width="75" height="38" transform="translate(1146.334 12899)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380642" data-name="Rectángulo 380642" width="75" height="38" transform="translate(1146.334 12937)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380643" data-name="Rectángulo 380643" width="75" height="38" transform="translate(1146.334 12825)" fill="#eba325"/>
+      <rect id="Rectángulo_380644" data-name="Rectángulo 380644" width="75" height="38" transform="translate(1220.334 12825)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380645" data-name="Rectángulo 380645" width="75" height="38" transform="translate(1293.334 12825)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380646" data-name="Rectángulo 380646" width="75" height="38" transform="translate(1293.334 12861)" fill="#e1fbff"/>
+      <rect id="Rectángulo_380647" data-name="Rectángulo 380647" width="75" height="38" transform="translate(1293.334 12899)" fill="#e1fbff"/>
+      <rect id="Rectángulo_380648" data-name="Rectángulo 380648" width="75" height="38" transform="translate(1293.334 12936)" fill="#0c5e46"/>
+      <rect id="Rectángulo_380649" data-name="Rectángulo 380649" width="75" height="38" transform="translate(1220.334 12936)" fill="#e1fbff"/>
+      <rect id="Rectángulo_380650" data-name="Rectángulo 380650" width="75" height="38" transform="translate(1220.334 13011)" fill="#0c5e46"/>
+      <rect id="Rectángulo_380651" data-name="Rectángulo 380651" width="75" height="44" transform="translate(999.334 13049)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380652" data-name="Rectángulo 380652" width="75" height="44" transform="translate(1220.334 13049)" fill="#0c5e46"/>
+      <rect id="Rectángulo_380653" data-name="Rectángulo 380653" width="75" height="44" transform="translate(1073.334 13049)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380654" data-name="Rectángulo 380654" width="75" height="44" transform="translate(1146.334 13049)" fill="#e1fbff"/>
+      <rect id="Rectángulo_380655" data-name="Rectángulo 380655" width="75" height="44" transform="translate(1293.334 13049)" fill="#0c5e46"/>
+      <rect id="Rectángulo_380656" data-name="Rectángulo 380656" width="75" height="75" transform="translate(1073.334 12899)" fill="#eba325"/>
+      <rect id="Rectángulo_380657" data-name="Rectángulo 380657" width="75" height="75" transform="translate(1073.334 12974)" fill="#fef5e5"/>
+      <rect id="Rectángulo_380658" data-name="Rectángulo 380658" width="75" height="75" transform="translate(1146.334 12974)" fill="#e1fbff"/>
+      <rect id="Rectángulo_380659" data-name="Rectángulo 380659" width="75" height="75" transform="translate(1293.334 12974)" fill="#0c5e46"/>
+      <rect id="Rectángulo_380660" data-name="Rectángulo 380660" width="75" height="75" transform="translate(999.334 12899)" fill="#eba325"/>
+      <rect id="Rectángulo_380661" data-name="Rectángulo 380661" width="75" height="75" transform="translate(999.334 12974)" fill="#eba325"/>
+    </g>
+    <text id="Nivel_de_riesgo_alto" data-name="Nivel de riesgo alto" transform="translate(-5592.83 799)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-23.588" y="12">Nivel de </tspan><tspan x="-30.938" y="27">riesgo alto</tspan></text>
+    <text id="Nivel_de_riesgo_bajo" data-name="Nivel de riesgo bajo" transform="translate(-5364.83 948)" fill="#fff" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-23.588" y="12">Nivel de </tspan><tspan x="-32.462" y="27">riesgo bajo</tspan></text>
+    <text id="Medio-2" data-name="Medio" transform="translate(-5483.83 952)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-18.269" y="12">Medio</tspan></text>
+    <text id="Medio-3" data-name="Medio" transform="translate(-5408.83 861)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-18.269" y="12">Medio</tspan></text>
+    <text id="Medio-4" data-name="Medio" transform="translate(-5332.83 821)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-18.269" y="12">Medio</tspan></text>
+    <text id="Nivel_de_riesgo_importante" data-name="Nivel de riesgo importante" transform="translate(-5453.83 797)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-43.542" y="12">Nivel de riesgo </tspan><tspan x="-32.246" y="27">importante</tspan></text>
+    <text id="Nivel_de_riesgo_importante-2" data-name="Nivel de riesgo importante" transform="translate(-5602.83 985)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-43.542" y="12">Nivel de riesgo </tspan><tspan x="-32.246" y="27">importante</tspan></text>
+  </g>
+</svg>

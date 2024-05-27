@@ -10,7 +10,7 @@
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Una cordial bienvenida a este momento de aprendizaje dedicado al análisis de la evaluación y tratamiento del riesgo como elemento fundamental para el normal funcionamiento y la mejora continua de las organizaciones. Inicie revisando el siguiente video de introducción a la temática:
+        p Como bienvenida al presente componente formativo, que expone el análisis de la evaluación y tratamiento del riesgo como elemento fundamental para el normal funcionamiento y la mejora continua de las organizaciones, se presenta el siguiente video introductorio.
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

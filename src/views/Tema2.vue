@@ -24,29 +24,29 @@
       .col-lg-7
         ol.lista-ol--cuadro
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 1
           | Servicios digitales de confianza y calidad.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 2
           | Decisiones basadas en datos.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 3
           | Procesos internos, seguros y eficientes.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 4
           | Empoderamiento de los ciudadanos a través del Estado abierto.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 5
           | Territorios y ciudades inteligentes a través de las TIC.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Vea entonces, en el siguiente esquema los elementos de la Política de Gobierno Digital:
+        p En el siguiente esquema se presentan los elementos de la Política de Gobierno Digital:
     
     ImagenInfografica.color-acento-botones.mb-5.desktop
       template(v-slot:imagen)
@@ -88,9 +88,8 @@
       .tarjeta.bg2.p-3(x="50.2%" y="65%" numero="+")
         p Aspectos que articulados permiten el desarrollo de los componentes de la política.
 
-    .row.mb-5.mt-5.ps-2    
-      .h4.mb-0.mx-3 Propósitos
-      .col-lg-4.bg-color-1.px-4.py-3
+    .h4.mb-4.mt-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Propósitos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -100,23 +99,23 @@
       .col-lg-8
         ol.lista-ol--cuadro
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 1
           | Que las entidades habiliten y mejoren la provisión de servicios digitales de confianza y calidad.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 2
           | Que los procesos internos de las entidades públicas sean seguros y eficientes a través del fortalecimiento de las capacidades de gestión de las tecnologías de la información.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 3
           | Que las entidades públicas tomen decisiones basadas en datos.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 4
           | Que los ciudadanos se empoderen y participen de la consolidación de un Estado abierto.
           li
-          .lista-ol--cuadro__vineta
+          .lista-ol--cuadro__vineta(style="color: #232222")
             span 5
           | Que se solucionen retos sociales mediante el desarrollo de territorios y ciudades inteligentes.
       .col-lg-4
@@ -124,29 +123,29 @@
           img(src='@/assets/curso/temas/tema2/img3.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p De este modo, el MinTIC dispone que en el marco de la sección de políticas TI para aumentar la productividad, la flexibilidad y la dinámica del Estado en cuanto a TI, las entidades deben actuar en conjunto con ayuda de lineamientos, guías y estándares que les faciliten la gestión de sus recursos y proyectos, que conlleven a resultados más eficientes.
+        p Así, el MinTIC dispone que, dentro de la sección de políticas TI, las entidades deben actuar junto a lineamientos, guías y estándares que les faciliten la gestión de sus recursos y proyectos, que conlleven a resultados más eficientes.
 
     Separador
     .row
       .col-xl-12
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.1 Protocolos de elaboración
+      h2 2.1 Protocolos de elaboración
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema2/img4.png', alt='')
       .col-lg-7
-        p La información es indispensable para abordar diferentes procesos de índole administrativo, académico, operativo, tecnológico, etc. El tratamiento de la información en cualquier tipo de formato (digital, físico, magnético) constituye una de las actividades que hacen parte de los sistemas de información que soportan los procesos. Del mismo modo, estos métodos incorporan los datos y los recursos físicos como el papel, o tecnológicos, así como los encargados de realizar estas actividades. 
-        p Al hablar de los activos que componen los sistemas de información se pueden reconocer los activos físicos (como los computadores) y los de almacenamiento (como USB, discos, cintas, etc.). No obstante, no es recomendable discriminar los demás activos, que aunque no son tangibles, sí son esenciales para las organizaciones como, por ejemplo, el conocimiento (#[i knowhow]) de los funcionarios, la reputación, el #[i software] o la propiedad intelectual.
+        p La información es indispensable para abordar diferentes procesos administrativos, académicos, operativos, tecnológicos, etc. El tratamiento de la información en cualquier formato (digital, físico, magnético) es una de las actividades que realizan los sistemas de información que soportan los procesos. Del mismo modo, estos métodos incorporan los datos y los recursos físicos como el papel, o tecnológicos, así como los encargados de realizar estas actividades. 
+        p Al hablar de los activos que componen los sistemas de información se pueden reconocer los activos físicos (como los computadores) y los de almacenamiento (como USB, discos, cintas, etc.). No obstante, no es recomendable discriminar los demás activos, que aunque no son tangibles, sí son esenciales para las organizaciones como, por ejemplo, el conocimiento (#[i know-how]) de los funcionarios, la reputación, el #[i software] o la propiedad intelectual.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .tarjeta.tarjeta--verde.p-4
-          p Cuando se habla de los Sistemas de gestión de seguridad de la información – SGSI se habla de reconocer la importancia del uso reflexivo de la tecnología y las comunicaciones, entendiendo que su uso irresponsable expone a diario a múltiples amenazas que ponen en riesgo la información y con ello, la operación de las entidades. Dichos riesgos provienen tanto del exterior como del interior. Para poder trabajar en un ambiente seguro es necesario identificar la información, determinar su valor e implementar mecanismos o controles en los procesos, las personas y la tecnología. Con el apoyo e implementación del Sistema de gestión de seguridad y privacidad de la información se puede identificar y gestionar los posibles riesgos que atenten contra la seguridad de la información de la empresa.
+          p Cuando se habla de los Sistemas de Gestión de Seguridad de la Información – SGSI se habla de reconocer la importancia del uso reflexivo de la tecnología y las comunicaciones, entendiendo que su uso irresponsable expone a diario a múltiples amenazas que ponen en riesgo la información y con ello, la operación de las entidades. Dichos riesgos provienen tanto del exterior como del interior. Para poder trabajar en un ambiente seguro es necesario identificar la información, determinar su valor e implementar mecanismos o controles en los procesos, las personas y la tecnología. Con el apoyo e implementación del Sistema de gestión de seguridad y privacidad de la información se puede identificar y gestionar los posibles riesgos que atenten contra la seguridad de la información de la empresa.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Para hablar del SGSI es importante entender los diferentes conceptos asociados y la diferencia entre seguridad de la información, seguridad informática y ciberseguridad, véalo:
+        p Para hablar del SGSI es importante entender los diferentes conceptos asociados y la diferencia entre seguridad de la información, seguridad informática y ciberseguridad, como se expone a continuación.:
     
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -172,14 +171,18 @@
         p Reservación de la confidencialidad, la integridad y la disponibilidad de la información. También involucra otras propiedades como la autenticidad,  la responsabilidad, el no repudio y la confiabilidad. 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p La #[b seguridad informática] permite resguardar toda la información, por lo que su alcance es mucho más amplio que la #[b ciberseguridad]; es decir, la #[b SI] protege la información de todos los posibles riesgos que puedan afectarla, bien sea por medio físico o digital. Por otro lado, la #[b ciberseguridad] está orientada a proteger la información digital que se procesa a través de redes, computadores, servidores, etc., por lo que se aproxima mucho a la #[b seguridad informática], la cual se preocupa de la protección de la información en cualquier infraestructura computacional o medio informático interconectado o no.
+        p La #[b seguridad informática] permite resguardar la información, por lo que su alcance es mucho más amplio que la ciberseguridad; la SI protege la información de los posibles riesgos que puedan afectarla, de forma física o digital. Por otro lado, la #[b ciberseguridad] está orientada a proteger la información digital que se procesa a través de redes, computadores, servidores, etc., por lo que se aproxima mucho a la #[b seguridad informática], la cual se preocupa de la protección de la información en cualquier infraestructura computacional o medio informático interconectado o no.
       .col-lg-12
         p La siguiente figura representa las relaciones entre ciberseguridad y otros dominios de seguridad:
+
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 2.
+      span  #[i  Relaciones de ciberseguridad y otros dominios.]
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema2/img8.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/img8.svg', alt='Figura que relaciona los aspectos de ciberseguridad y de otros dominios, destacando aspectos en seguridad como: información, aplicación, cibermética, red e internet.')
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -192,7 +195,7 @@
           img(src='@/assets/curso/temas/tema2/img9.png', alt='')
 
       .col-lg-6
-        p Es por ello, que la Ley de Protección de Datos Personales declara la protección como el derecho de toda persona a conocer, actualizar y rectificar la información que se recopile de ella en bases de datos que sean propensas a la manipulación y la gestión por entidades públicas y/o privadas. De acuerdo con esto, la información personal se encuentra clasificada así:
+        p Por eso, la Ley de Protección de Datos Personales declara la protección como derecho de toda persona a conocer, actualizar y rectificar la información recogida en bases de datos propensas a la manipulación y gestión por entidades públicas o privadas. De acuerdo con esto, la información personal se encuentra clasificada así:
         ul.lista-ul
           li
             i.fas.fa-check
@@ -209,19 +212,23 @@
     .row
       .col-xl-12
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.2 Normativa de protección de datos
+      h2 2.2 Normativa de protección de datos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p En Colombia a partir de los Lineamientos de política para ciberseguridad y ciberdefensa establecidos en el CONPES 3701 del 14 de Julio de 2011 se crearon los equipos especializados en incidentes de seguridad que brindan servicios de respuesta a entidades del Estado, además de contribuir con el fortalecimiento de la seguridad y la generación de confianza ante la ciudadanía.
         p El siguiente esquema muestra el modelo de coordinación de la comisión intersectorial:
+    
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 3.
+      span  #[i  Modelo de coordinación comisión sectorial.]
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/img10.svg', alt='Esquema que representa el procedimiento de comisión sectorial, el cual está compuesto por: ColCERT. Comando  Conjunto Cibernético. Centro Cibernético Policial.')
           figcaption Adaptado del Modelo de coordinación,  Conpes (2011). 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Con el aumento del uso de las tecnologías y los incidentes generados a partir de estas, el Gobierno Nacional el 6 de agosto de 2018 inauguró el #[b CSIRT] de gobierno, un equipo que presta el servicio de prevención y respuesta a los incidentes de seguridad informática que afectan a las entidades públicas del país.
+        p Con el aumento del uso de las tecnologías y los incidentes generados a partir de estas, el Gobierno Nacional inauguró el #[b CSIRT] de gobierno, un equipo de prevención y respuesta a los incidentes de seguridad informática que afectan a las entidades públicas del país. 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
@@ -242,14 +249,19 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p La #[b NTC-ISO/IEC 27001] es una norma certificable, creada por la ISO con el objetivo de proporcionar una metodología universal para implementar, administrar y mantener la seguridad de la información. De acuerdo con esta norma, el SGSI está conformado por los elementos dispuestos en la siguiente gráfica que representa de modo piramidal las diferentes fases que acompañan los principios del SGSI:
+    
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 4.
+      span  #[i  Principios]
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
           img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p La protección de la información se realiza manteniendo los principios (confidencialidad, integridad y disponibilidad) en cualquier lugar en donde esta se encuentre, incluye los dispositivos que la almacenan, procesan y transmiten y todos los recursos que intervienen en su ciclo de vida, las personas, los procesos y la tecnología que se utilice; todo esto a través del uso de políticas, procedimientos, sensibilización y tecnologías.
-        p Proteger la información de amenazas que lleguen a afectar la integridad, la confidencialidad y la disponibilidad es lo que se denomina Sistema de información - SI. Conocer los principios de seguridad que se deben proteger permite identificar de manera más fácil las medidas de protección que deben ser aplicadas para evitar su pérdida o alteración, véalo:
+        p La protección de la información se realiza manteniendo los principios (confidencialidad, integridad y disponibilidad) donde esté, incluye los dispositivos que la almacenan, procesan y transmiten y todos los recursos que intervienen en su ciclo de vida, las personas, los procesos y la tecnología que se utilicen; todo esto mediante el uso de políticas, procedimientos, sensibilización y tecnologías.
+        p Proteger la información de amenazas que lleguen a afectar la integridad, la confidencialidad y la disponibilidad es lo que se denomina Sistema de información - SI. Conocer los principios de seguridad que se deben proteger permite identificar de manera más fácil las medidas de protección que deben ser aplicadas para evitar su pérdida o alteración, a continuación, se exponen dichos principios.
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -273,6 +285,8 @@
               img(src='@/assets/curso/temas/tema2/img15.svg', alt='')
         h2.text-center Seguridad de la información
         p Propiedad mediante la cual la información no se hace disponible o revelada a individuos, entidades o procesos no autorizados, es decir, la información confidencial es aquella que una vez identificada, se protege del acceso de personas no autorizadas.
+
+    p(data-aos="fade-left") A continuación, se presentan los elementos de la Ley de Protección de Datos Personales y la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Ley de protección de datos personales Ley 1581 de 2012 ")

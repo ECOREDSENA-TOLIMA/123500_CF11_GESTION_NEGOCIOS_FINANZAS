@@ -79,14 +79,14 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
+            numero: '2.1',
             titulo: 'Protocolos de elaboración',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
-            numero: '1.1',
+            numero: '2.1',
             titulo: 'Normativa de protección de datos',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
         ],
       },
@@ -159,7 +159,7 @@ export default {
         'Chaparro, M. (2014). Legislación informática y protección de datos en Colombia, comparada con otros países. Inventum, 9(17), p. 32-37.',
       tipo: 'Artículo',
       descarga:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_doaj_primary_oai_doaj_org_article_d369f2b22f8f479ca3bbdf0c2f4ad238&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=PC      ',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_doaj_primary_oai_doaj_org_article_d369f2b22f8f479ca3bbdf0c2f4ad238&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=PC',
     },
   ],
   glosario: [
@@ -294,7 +294,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodrígue',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

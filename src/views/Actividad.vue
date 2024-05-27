@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9(data-aos="fade-left")
         .titulo-segundo
-          h2 Nombre_de_la_actividad
-        p.mb-4 Objetivo_actividad
+          h2 Sistema de Gestión del Riesgo Empresarial y la Seguridad de la Información
+        p.mb-4 Verificar la apropiación de la conceptualización básica relacionada con los sistemas de gestión del riesgo empresarial y la seguridad de la información, teniendo en cuenta sus aspectos procedimentales.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo_de_actividad
+              p.fw-bold.mb-0 Falso y Verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

@@ -8,7 +8,7 @@
       h1 Evaluación del riesgo
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Dirigir una compañía implica, en un alto grado de responsabilidad, la gestión y evaluación adecuada de los riesgos a los que se expone a diario la empresa. Vea cuáles son esos riesgos y las posibilidades de afrontarlos.
+        p Dirigir una compañía implica, en un alto grado de responsabilidad, la gestión y evaluación adecuada de los riesgos a los que se expone a diario la empresa. Dichos riesgos pueden ser internos o externos.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
@@ -29,7 +29,7 @@
               p Inflación, interés, políticas, tasa de cambio, desempleo, riesgo del país.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Según la Norma ISO 31000-2018 el proceso de evaluación de los riesgos consta de cuatro pasos básicos: #[b identificación, análisis, valoración y tratamiento] de los riesgos, que dejan a disposición de la empresa una amplia gama de técnicas para identificar la incertidumbre que puede llegar a afectar a uno o a varios de sus objetivos. Revise en qué consiste cada uno de estos pasos.
+        p Según la Norma ISO 31000-2018 el proceso de evaluación de los riesgos consta de cuatro pasos básicos: #[b identificación, análisis, valoración y tratamiento] de los riesgos, que dejan a disposición de la empresa una amplia gama de técnicas para identificar la incertidumbre que puede llegar a afectar a uno o a varios de sus objetivos. A continuación se describen los cuatro pasos mencionados.
      
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -41,7 +41,7 @@
               p #[b Factores a considerar:]
               .cblanco 
                 .row.justify-content-center                 
-                  .col-lg-6.text-small.p-4
+                  .col-lg-6.p-4
                     ul.lista-ul
                       li
                         i.fas.fa-circle
@@ -68,7 +68,7 @@
                       li
                         i.fas.fa-circle
                         | Naturaleza y valor de activos y recursos.
-                  .col-lg-6.text-small.p-4
+                  .col-lg-6.p-4
                     ul.lista-ul
                       li
                         i.fas.fa-circle.fa-2sx
@@ -92,7 +92,7 @@
               p #[b Factores a considerar:]
               .cblanco 
                 .row.justify-content-center                 
-                  .col-lg-6.text-small.p-4
+                  .col-lg-6.p-4
                     ul.lista-ul
                       li
                         i.fas.fa-circle
@@ -104,7 +104,7 @@
                       li
                         i.fas.fa-circle
                         | Complejidad e interconexión.
-                  .col-lg-6.text-small.p-4
+                  .col-lg-6.p-4
                     ul.lista-ul
                       li
                         i.fas.fa-circle.fa-2sx
@@ -124,7 +124,7 @@
               p #[b Decisiones que se pueden abordar en la valoración de riesgos:]
               .cblanco 
                 .row.justify-content
-                  .col-lg-12.text-small.p-4
+                  .col-lg-12.p-4
                     ul.lista-ul
                       li
                         i.fas.fa-circle
@@ -151,7 +151,7 @@
               p #[b Procesos interactivos a ejecutar en el tratamiento de  los riesgos:]
               .cblanco 
                 .row.justify-content
-                  .col-lg-12.text-small.p-4
+                  .col-lg-12.p-4
                     ul.lista-ul
                       li
                         i.fas.fa-circle
@@ -180,13 +180,13 @@
     .row
       .col-xl-12
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.1 Riesgo empresarial
+      h2 1.1 Riesgo empresarial
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema1/img7.jpg', alt='Imagen de prueba')
       .col-lg-7
-        p La gestión del riesgo empresarial - GRE es un proceso que afecta a todos los órganos directivos y laborales de la organización (junta directiva, administrativos y empleados) y es diseñada para perfilar eventos que puedan impactar a la entidad, de tal forma que el riesgo pueda estar dentro del rango de impacto deseable y razonable que no afecte los objetivos de la organización.
+        p La gestión del riesgo empresarial-GRE afecta a los órganos directivos y laborales de la organización (junta directiva, administrativos y empleados) y se diseñó para perfilar eventos que puedan impactar a la entidad, de forma que el riesgo esté en el rango de impacto deseable y razonable que no afecte los objetivos de la organización.
         p La GRE debe impactar en todos los niveles e incluirse en los modelos de la estrategia organizacional, con el fin de identificar alternativas de solución preventivas y no correctivas enfocadas siempre al cumplimiento de metas, independientemente del departamento al cual se esté aplicando la estrategia.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -205,13 +205,12 @@
         figure
           img(src='@/assets/curso/temas/tema1/img9.svg', alt='')
     
-    .row.mb-3.ps-2    
-      .h4.mb-0.mx-3 Clasificación de riesgos empresariales
-      .col-lg-4.bg-color-1.px-4.py-3
-    
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Clasificación de riesgos empresariales
+        
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Existen dos tipos de riesgos, según su impacto o si pueden prevenirse o no, vea su definición y principales características:
+        p En el siguiente recurso se presentan dos tipos de riesgo, según su impacto o según la posibilidad de prevenirlos o no.
     
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -233,9 +232,8 @@
         p De naturaleza impredecible, singulares, de alta volatilidad y un impacto potencialmente cambiante.
         p No se puede aplicar el modelado probabilístico.  Ante este tipo de evento el manejo del riesgo se hace indispensable para asegurar la supervivencia empresarial.
     
-    .row.mb-5.ps-2    
-      .h4.mb-0.mx-3 Tipos de riesgos y naturaleza
-      .col-lg-4.bg-color-1.px-4.py-3
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Tipos de riesgos y naturaleza
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
@@ -252,7 +250,7 @@
     .row
       .col-xl-12
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.2 Determinación de ocurrencia
+      h2 1.2 Determinación de ocurrencia
     
     .bg1.p-5.mb-5
       .row.justify-content-center.align-items-center
@@ -260,13 +258,12 @@
           figure
             img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen decorativa')
         .col-lg-7
-          p.text-small El análisis de los riesgos permite recopilar la información del sistema y  de los procesos que se utilizan en las empresas para mejorar el uso, la manipulación, la protección y la administración de los recursos ante las vulnerabilidades que se pudiesen encontrar. Por tal motivo, es indispensable hacer control a la probabilidad de ocurrencia de los eventos y sus posibles consecuencias.
-          p.text-small Existen diversas formas de gestionar un análisis de riesgos, lo más importante es conocer o entender la forma en que se determinará el valor del riesgo. Una forma sería multiplicar la vulnerabilidad por el % de importancia o peso para la empresa, es decir, mientras más vulnerable sea un activo y más importante sea este para la entidad, mayor será su riesgo. Por lo tanto, la inversión en tiempo, dinero o mano de obra será mayor para lograr minimizarlo.
-          p.text-small De forma general, el riesgo concierne a situaciones donde las probabilidades de resultados y sus consecuencias se determinan por medio de las técnicas de datos reales, completos y verídicos. Por otro lado, la incertidumbre ocurre cuando los datos utilizados presentan fragmentación, registros incompletos o datos no disponibles.
+          p El análisis de los riesgos permite recopilar la información del sistema y  de los procesos que se utilizan en las empresas para mejorar el uso, la manipulación, la protección y la administración de los recursos ante las vulnerabilidades que se pudiesen encontrar. Por tal motivo, es indispensable hacer control a la probabilidad de ocurrencia de los eventos y sus posibles consecuencias.
+          p Existen diversas formas de gestionar un análisis de riesgos, lo más importante es conocer o entender la forma en que se determinará el valor del riesgo. Una forma sería multiplicar la vulnerabilidad por el % de importancia o peso para la empresa, es decir, mientras más vulnerable sea un activo y más importante sea este para la entidad, mayor será su riesgo. Por lo tanto, la inversión en tiempo, dinero o mano de obra será mayor para lograr minimizarlo.
+          p El riesgo concierne a situaciones donde las probabilidades de resultados y sus consecuencias se determinan con técnicas de datos reales, completos y verídicos. Por otro lado, la incertidumbre ocurre cuando los datos utilizados presentan fragmentación, registros incompletos o datos no disponibles.
     
-    .row.mb-5.ps-2    
-      .h4.mb-0.mx-3 Teoría de probabilidades
-      .col-lg-4.bg-color-1.px-4.py-3
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Teoría de probabilidades
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Es una herramienta que establece un conjunto de reglas o principios para calcular la ocurrencia de los eventos, asignando un número a la posibilidad de que un evento ocurra. Aproxímese al concepto de teoría de probabilidades a través del siguiente video:
@@ -274,59 +271,60 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
 
-    .row.mb-5.ps-2    
-      .h4.mb-0.mx-3 Análisis de incertidumbre
-      .col-lg-4.bg-color-1.px-4.py-3
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Análisis de incertidumbre
 
     .row.justify-content-center.align-items-center.mb-5      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Resultados conocidos
-              p Los posibles resultados que pueden obtenerse son conocidos a #[i priori].
+              p.text-small Los posibles resultados que pueden obtenerse son conocidos a #[i priori].
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Probabilidades
-              p Análisis de probabilidades de cada opción.  Medir el resultado.
+              p.text-small Análisis de probabilidades de cada opción.  Medir el resultado.
+              br
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Evaluación y cálculo
-              p Apuesta de forma analítica por una opción u otra, con base en información.
+              p.text-small Apuesta de forma analítica por una opción u otra, con base en información.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}")      
       .row.justify-content-center.align-items-center.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Efectos posibles
-              p Valoración de efectos posibles con conciencia que pueden producir efectos no esperados.
+              p.text-small Valoración de efectos posibles con conciencia que pueden producir efectos no esperados.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Posibilidades
-              p La incertidumbre no se puede medir de forma controlada.  Solo se valoran opciones.
+              p.text-small La incertidumbre no se puede medir de forma controlada.  Solo se valoran opciones.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-8
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Intuición y experiencia
-              p Se trata de mejorar posibilidades actuando de forma intuitiva.
+              p.text-small Se trata de mejorar posibilidades actuando de forma intuitiva.
+              br
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img19.png')})`}")
 
     .bg1
@@ -337,30 +335,30 @@
         .col-lg-7          
           .cblanco1 
             .row.justify-content
-              .col-lg-12.text-small.p-4
+              .col-lg-12.p-4
                 h3 Importante
                 ul.lista-ul
                   li
                     i.fas.fa-circle
-                    | Afrontar la incertidumbre ejerciendo influencia en las situaciones deseadas, en lo que se quiera que ocurra.
+                    | Se debe afrontar la incertidumbre ejerciendo influencia en las situaciones deseadas, en lo que se quiera que ocurra.
                   li
                     i.fas.fa-circle
-                    | Sin estar seguros de lo que pueda pasar, centrar esfuerzos para obtener una alta probabilidad de conseguir los resultados deseados. 
+                    | Se deben enfocar los esfuerzos en obtener una alta probabilidad de conseguir los resultados deseados, a pesar de la incertidumbre.
                   li
                     i.fas.fa-circle
-                    | No se puede afrontar las situaciones intentando conseguir algo en concreto, sino buscando aumentar las probabilidades de que suceda.
+                    | No se pueden afrontar las situaciones intentando conseguir algo en concreto, sino buscando aumentar las probabilidades de que eso en concreto suceda.
                   li
                     i.fas.fa-circle
-                    | No se puede eliminar del todo la incertidumbre, pero sí tratar de inclinar la balanza a su favor.
+                    | No se puede eliminar del todo la incertidumbre, pero sí tratar de inclinar la balanza a favor.
 
     Separador
     .row
       .col-xl-12
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.3 Modelos de estimación
+      h2 1.3 Modelos de estimación
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p En el campo de los riesgos previsibles, la estimación trata de valorar la probabilidad de ocurrencia y el nivel de impacto de los riesgos que se componen y que, teniendo en cuenta su materialidad, requieren una valoración y presentan unos niveles de asignación. La asignación distribuye los riesgos de acuerdo con la capacidad de gestión, de tal manera que puedan ser controlados, administrados y mitigados. La valoración determina la estimación que puede ser cualitativa o cuantitativa, tal y como se detalla a continuación:
+        p En el campo de los riesgos previsibles, la estimación trata de valorar la probabilidad de ocurrencia y el nivel de impacto de los riesgos que se componen y que, teniendo en cuenta su materialidad, requieren una valoración y presentan unos niveles de asignación. La asignación distribuye los riesgos según la capacidad de gestión, para que puedan controlarse, administrarse y mitigarse. La valoración determina la estimación que puede ser cualitativa o cuantitativa, tal y como se detalla a continuación:
     
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Estimación cualitativa")
@@ -411,13 +409,13 @@
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-10
         .tarjeta.tarjeta--verde.p-4
-          p Es importante poder cuantificar y categorizar los riesgos, porque de acuerdo con su nivel o puntaje de evaluación o estimación se logran jerarquizar a través de un plan de acción o intervención, tratando siempre de actuar sobre aquellos que son más críticos y pueden llegar a ser más perjudiciales para el normal desarrollo de un proyecto o funcionamiento de una empresa. Estos niveles jerarquizados se plasman para una mejor lectura y comprensión en un mapa de riesgos.
+          p Es importante cuantificar y categorizar los riesgos, porque según su nivel o puntaje de evaluación o estimación se logran jerarquizar mediante un plan de acción o intervención, tratando de actuar sobre quienes son más críticos y pueden llegar a ser más perjudiciales para el normal desarrollo de un proyecto o funcionamiento de una empresa. Estos niveles jerarquizados se plasman para una mejor lectura y comprensión en un mapa de riesgos.
 
     Separador
     .row
       .col-xl-12
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.4 Mapa de riesgos
+      h2 1.4 Mapa de riesgos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Identifica de forma gráfica los riesgos a los que se expone una empresa, teniendo en cuenta su probabilidad y el impacto que pueden causar.
@@ -430,7 +428,7 @@
         .col-lg-7          
           .cblanco1 
             .row.justify-content
-              .col-lg-12.text-small.p-4
+              .col-lg-12.p-4
                 h3 Importante
                 ul.lista-ul
                   li
@@ -439,9 +437,8 @@
                   li
                     i.fas.fa-circle
                     | Identificar los riesgos de forma correcta permite establecer niveles en diferentes áreas de la empresa, lo que conlleva a establecer el objetivo del mapa de riesgos.                  
-    .row.mb-3.ps-2    
-      .h4.mb-0.mx-3 Pasos para elaborar un mapa de riesgos
-      .col-lg-4.bg-color-1.px-4.py-3
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Pasos para elaborar un mapa de riesgos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p La secuencia ofrecida a continuación detalla los pasos recomendados para la elaboración de un mapa de riesgos:
@@ -498,7 +495,7 @@
               img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Los mapas de riesgos se deben revisar periódicamente, teniendo en cuenta que la gestión y los riesgos son dinámicos, es decir, lo que hoy se puede identificar como un peligro, a futuro puede no existir o transformarse en una oportunidad y viceversa. Por este motivo, el mapa de riesgos debe pasar por revisiones de acuerdo con los cambios o entorno de la empresa, aunque hay algunas que no tienen mayor alteración en sus condiciones, existen otras entidades que son muy proclives a cambios constantes.
+        p Los mapas de riesgos se deben revisar periódicamente, teniendo en cuenta que la gestión y los riesgos son dinámicos, es decir, lo que hoy se puede identificar como un peligro, a futuro puede no existir o transformarse en una oportunidad y viceversa. Por eso, el mapa de riesgos debe pasar por revisiones según los cambios o entorno de la empresa, aunque algunas no tienen mayor alteración en sus condiciones, otras entidades proclives a cambios constantes.
         p Es importante recordar que dentro de las #[b técnicas de elaboración de un mapa de riesgos] se destacan las siguientes:
     PasosA.color-acento-contenido.mb-5(tipo="n")
       .row(titulo="")
@@ -514,7 +511,7 @@
             img(src='@/assets/curso/temas/tema1/img31.jpg', alt='Imagen decorativa')
         .col-md-6.mb-4.mb-md-0
           h4 Definir qué es un riesgo
-          p El comité debe recopilar toda la información necesaria y definir para la organización o para el proyecto ¿qué es un riesgo?. El riesgo ayuda a controlar las crisis anticipándose a lo que pueda ocurrir.        
+          p El comité debe recopilar toda la información necesaria y definir para la organización o para el proyecto ¿qué es un riesgo? El riesgo ayuda a controlar las crisis anticipándose a lo que pueda ocurrir.        
       .row(titulo="")
         .col-md-6.mb-4.mb-md-0
           h4 Identificar riesgos
@@ -547,12 +544,13 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/img34.svg', alt='Imagen decorativa')
+            figcaption Nota. El mapa de calor de riesgo consiste en una matriz con dos ejes, el Y representa la probabilidad de frecuencia del riesgo y el eje X, el impacto que puede tener. Tomado de Mapa de calor, Londoño  (2020).
 
     Separador
     .row
       .col-xl-12
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.5 Tratamiento de riesgos
+      h2 1.5 Tratamiento de riesgos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         figure
@@ -681,113 +679,124 @@
     .row
       .col-xl-12
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.6 Normativa técnica
+      h2 1.6 Normativa técnica
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p Son documentos donde se establece por consentimiento y con la aprobación de un ente reconocido algunas cláusulas o directrices mínimas que debe cumplir una empresa en la elaboración de un producto o servicio. Las normas son reglas que se aceptan de manera voluntaria por los interesados y a su vez reflejan la experiencia y el conocimiento de las personas, de acuerdo con su especialidad y  las necesidades de las empresas. 
-        p Una de las normas más importante en la actualidad es la Norma ISO 31000, que ayuda a desarrollar y gestionar directrices en las empresas de cualquier sector económico, minimizando el impacto de los riesgos en todas sus áreas en procura de la mejora continua de los procesos y gestión de calidad. 
+        p Una de las normas más importantes hoy es la Norma ISO 31000, que ayuda a desarrollar y gestionar directrices en empresas de cualquier sector económico, minimizando el impacto de los riesgos en todas sus áreas para mejorar los procesos y gestión de calidad. 
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema1/img40.png', alt='Imagen decorativa') 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Vea en la siguiente presentación sus principales características:
+        p A continuación, se presentan sus principales características:
     
-    SlyderA(tipo='b' class='bgslyder').mb-5
-      .row
-        .col-md-4.mb-4.mb-md-0.p-4
-          h4 Definición
-          p Norma internacional para la gestión de riesgos, que ofrece orientaciones y fundamentos para minimizar el impacto de los riesgos presentes en las organizaciones.
-        .col-md-8
-          figure
-            img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
-      .row
-        .col-md-4.mb-4.mb-md-0.p-4
-          h4 Origen
-          p Se publica en 2009 por la Organización Internacional de Normalización (ISO) en colaboración con la Comisión Electrotécnica Internacional (IEC).
-        .col-md-8
-          figure
-            img(src='@/assets/curso/temas/tema1/img42.png', alt='Imagen decorativa')
-      .row
-        .col-md-4.mb-4.mb-md-0.p-4
-          h4 Objetivos
-          .cblanco2
-            ul.lista-ul
-              li
-                i.fas.fa-circle
-                | Gestionar sistemas especializados para la normalización mundial. 
-              li
-                i.fas.fa-circle
-                | Apoyar a las empresas en el manejo de los riesgos de forma efectiva, recomendando el desarrollo, la implementación y la mejora continua de sus marcos de trabajo, con el propósito de integrar la cultura de gestión de riesgos en cada área de la organización.
+    .row.justify-content-center
+      .tarjeta.tarjeta--azul.p-4.mb-5.bgslyder
+        SlyderA(tipo="b").mb-5
+          .row
+            .col-md-6.mb-4.mb-md-0.p-4
+              h4 Definición
+              p Norma internacional para la gestión de riesgos, que ofrece orientaciones y fundamentos para minimizar el impacto de los riesgos presentes en las organizaciones.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0.p-4
+              h4 Origen
+              p Se publica en 2009 por la Organización Internacional de Normalización (ISO) en colaboración con la Comisión Electrotécnica Internacional (IEC).
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img42.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0.p-4
+              h4 Objetivos
+              .cblanco2
+                ul.lista-ul
+                  li
+                    i.fas.fa-circle
+                    | Gestionar sistemas especializados para la normalización mundial. 
+                  li
+                    i.fas.fa-circle
+                    | Apoyar a las empresas en el manejo de los riesgos de forma efectiva, recomendando el desarrollo, la implementación y la mejora continua de sus marcos de trabajo, con el propósito de integrar la cultura de gestión de riesgos en cada área de la organización.
 
-        .col-md-8
-          figure
-            img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
-      .row
-        .col-md-4.mb-4.mb-md-0.p-4
-          h4 Estructura
-          p Dada la diversidad y dificultad de los riesgos, la ISO 31000 no está enfocada en un sistema particular de gestión.  Fue desarrollada como una guía de buenas prácticas para la implementación de acciones asociadas con la gestión de riesgos. Su diseño e implementación dependerá en gran medida de las necesidades de cada entidad, sus metas específicas, políticas, servicios, etc.
-          p Está compuesta de tres elementos fundamentales en la gestión de riesgos:
-          .cblanco2
-            ul.lista-ul
-              li
-                i.fas.fa-circle
-                | Los principios para la gestión de riesgos.
-              li
-                i.fas.fa-circle
-                | La estructura de soporte o marco de trabajo. 
-              li
-                i.fas.fa-circle
-                | El proceso de gestión de riesgos, este proceso consta de tres etapas: el  establecimiento del contexto, la valoración de los riesgos y el tratamiento de los mismos.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0.p-4
+              h4 Estructura
+              p Dada la diversidad y dificultad de los riesgos, la ISO 31000 no está enfocada en un sistema particular de gestión.  Fue desarrollada como una guía de buenas prácticas para la implementación de acciones asociadas con la gestión de riesgos. Su diseño e implementación dependerá en gran medida de las necesidades de cada entidad, sus metas específicas, políticas, servicios, etc.
+              p Está compuesta de tres elementos fundamentales en la gestión de riesgos:
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0.p-4
+              h4 Estructura
+              .cblanco2
+                ul.lista-ul
+                  li
+                    i.fas.fa-circle
+                    | Los principios para la gestión de riesgos.
+                  li
+                    i.fas.fa-circle
+                    | La estructura de soporte o marco de trabajo. 
+                  li
+                    i.fas.fa-circle
+                    | El proceso de gestión de riesgos, este proceso consta de tres etapas: el  establecimiento del contexto, la valoración de los riesgos y el tratamiento de los mismos.
 
-
-        .col-md-8
-          figure
-            img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
-      .row
-        .col-md-12.mb-4.mb-md-0.p-4
-          h4 Principios
-        .row
-          .col-md-6.mb-4.mb-md-0.p-4
-            .cblanco2
-              ul.lista-ul
-                li
-                  i.fas.fa-circle
-                  | #[b Crear y proteger el valor.] Contribuye a la consecución de objetivos así como la mejora de aspectos.
-                li
-                  i.fas.fa-circle
-                  | #[b Estar integrada en los procesos de una organización.] No debe ser entendida como una actividad aislada, sino como parte de las actividades y procesos principales de una organización.
-                li
-                  i.fas.fa-circle
-                  | #[b Formar parte de la toma de decisiones.] Ayuda a la toma de decisiones ,evaluando la información sobre las distintas alternativas.
-                li
-                  i.fas.fa-circle
-                  | #[b Tratar explícitamente la incertidumbre.] Aborda aspectos de la toma de decisiones que son inciertos, la naturaleza de esa incertidumbre y cómo puede tratarse.
-                li
-                  i.fas.fa-circle
-                  | #[b Ser sistemática, estructurada y adecuada.] Contribuye a la eficiencia y, consecuentemente, a la obtención de resultados fiables.
-                li
-                  i.fas.fa-circle
-                  | #[b Basarse en la mejor información disponible.] Los #[i inputs] del proceso de gestión del riesgo están basados en fuentes de información como la propia experiencia, la observación y la opinión de expertos.
-
-          .col-md-6
-            .cblanco2
-              ul.lista-ul
-                li
-                  i.fas.fa-circle
-                  | #[b Estar hecha a medida.] Alineada al contexto externo e interno de la organización y su perfil de riesgo.
-                li
-                  i.fas.fa-circle
-                  | #[b Tener en cuenta factores humanos y culturales.] Reconoce la capacidad y la percepción de los empleados y personas interesadas.  
-                li
-                  i.fas.fa-circle
-                  | #[b Ser transparente e inclusiva.] La apropiada y oportuna participación de los grupos de interés (#[i stakeholders]) y, en particular, de los responsables a todos los niveles, asegura que la gestión del riesgo permanezca relevante y actualizada.
-                li
-                  i.fas.fa-circle
-                  | #[b Ser dinámica, iterativa y sensible al cambio.] La organización debe velar para que la gestión del riesgo detecte y responda a los cambios de la empresa y de su entorno.
-                li
-                  i.fas.fa-circle
-                  | #[b Facilitar la mejora continua de la organización.] Las organizaciones deberán desarrollar e implementar estrategias para mejorar continuamente, tanto en la gestión del riesgo como en cualquier otro aspecto de la organización.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
+          .row
+            .col-md-12.mb-4.mb-md-0.p-4
+              h4 Principios
+              .row
+                .col-md-12.mb-4.mb-md-0.p-4
+                  .cblanco2
+                    ul.lista-ul
+                      li
+                        i.fas.fa-circle
+                        | #[b Crear y proteger el valor.] Contribuye a la consecución de objetivos así como la mejora de aspectos.
+                      li
+                        i.fas.fa-circle
+                        | #[b Estar integrada en los procesos de una organización.] No debe ser entendida como una actividad aislada, sino como parte de las actividades y procesos principales de una organización.
+                      li
+                        i.fas.fa-circle
+                        | #[b Formar parte de la toma de decisiones.] Ayuda a la toma de decisiones ,evaluando la información sobre las distintas alternativas.
+                      li
+                        i.fas.fa-circle
+                        | #[b Tratar explícitamente la incertidumbre.] Aborda aspectos de la toma de decisiones que son inciertos, la naturaleza de esa incertidumbre y cómo puede tratarse.
+                      li
+                        i.fas.fa-circle
+                        | #[b Ser sistemática, estructurada y adecuada.] Contribuye a la eficiencia y, consecuentemente, a la obtención de resultados fiables.
+                      li
+                        i.fas.fa-circle
+                        | #[b Basarse en la mejor información disponible.] Los #[i inputs] del proceso de gestión del riesgo están basados en fuentes de información como la propia experiencia, la observación y la opinión de expertos.
+          .row
+            .col-md-12.mb-4.mb-md-0.p-4
+              h4 Principios
+              .row
+                .col-md-12.mb-4.mb-md-0.p-4
+                  .cblanco2
+                    ul.lista-ul
+                      li
+                        i.fas.fa-circle
+                        | #[b Estar hecha a medida.] Alineada al contexto externo e interno de la organización y su perfil de riesgo.
+                      li
+                        i.fas.fa-circle
+                        | #[b Tener en cuenta factores humanos y culturales.] Reconoce la capacidad y la percepción de los empleados y personas interesadas.  
+                      li
+                        i.fas.fa-circle
+                        | #[b Ser transparente e inclusiva.] La apropiada y oportuna participación de los grupos de interés (#[i stakeholders]) y, en particular, de los responsables a todos los niveles, asegura que la gestión del riesgo permanezca relevante y actualizada.
+                      li
+                        i.fas.fa-circle
+                        | #[b Ser dinámica, iterativa y sensible al cambio.] La organización debe velar para que la gestión del riesgo detecte y responda a los cambios de la empresa y de su entorno.
+                      li
+                        i.fas.fa-circle
+                        | #[b Facilitar la mejora continua de la organización.] Las organizaciones deberán desarrollar e implementar estrategias para mejorar continuamente, tanto en la gestión del riesgo como en cualquier otro aspecto de la organización.
+                  
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -849,7 +858,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Las normas técnicas actúan como guías de normalización, unificando procesos y procedimientos que protegen los activos de las empresas, apoyándose en razones éticas, que promueven la calidad, la eficiencia y la seguridad. Su objetivo final es la estandarización para un correcto seguimiento, supervisión y desarrollo de los procesos, sin omitir que diferentes normas pueden integrarse y complementarse entre sí, razón por la cual las normas de gestión de riesgos trabajan en conjunto con las normas de gestión de calidad de la información.
+        p Las normas técnicas actúan como guías de normalización, unificando procesos y procedimientos que protegen los activos de las empresas, apoyándose en razones éticas, que promueven la calidad, la eficiencia y la seguridad. Su objetivo es la estandarización para un correcto seguimiento, supervisión y desarrollo de los procesos, sin omitir que diferentes normas puedan integrarse y complementarse, razón por la que las normas de gestión de riesgos trabajan junto con las de gestión de calidad de la información.
 </template>
 
 <script>

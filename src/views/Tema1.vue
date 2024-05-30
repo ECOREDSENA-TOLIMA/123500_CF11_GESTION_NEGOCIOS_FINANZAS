@@ -199,11 +199,12 @@
       .col-lg-10.desktop 
         figure
           img(src='@/assets/curso/temas/tema1/img8.svg', alt='')
-        figcaption Nota. Adaptado de Risk likelihood and magnitude, Hopkin (2010).
+        figcaption Nota. Tomado de Risk likelihood and magnitude, HoAdaptadopkin (2010).
 
-      .col-lg-10.movil
+      .col-lg-12.movil
         figure
           img(src='@/assets/curso/temas/tema1/img9.svg', alt='')
+          figcaption Nota. Tomado de Risk likelihood and magnitude, HoAdaptadopkin (2010).
     
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Clasificación de riesgos empresariales
@@ -238,9 +239,9 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p La forma más eficiente de incrementar o cumplir las metas establecidas es tener siempre presente que existen riesgos que pueden afectar la situación. Antes de definir cualquier estrategia de gestión de riesgos es necesario analizar los posibles riesgos y clasificarlos así:
-        .bgazul.p-4
+        .cajon.color-primario.p-3.mb-4(style="background-color: #E1EFE3")
           p #[b Riesgo sistemático:] integra los elementos socio-político-económicos que afectan el normal funcionamiento de un proyecto o empresa, por ejemplo, crisis financieras, guerras, desplazamientos, entre otros.
-        .bgverde.p-4
+        .cajon.color-secundario.p-3.mb-4(style="background-color: #DBE5F3")
           p #[b Riesgo no sistemático:] afecta de manera específica un proyecto o empresa, por ejemplo, mala estrategia de gerencia, mal funcionamiento de una maquinaria, empleados inconformes, entre otros.
       .col-lg-5
         figure
@@ -662,9 +663,13 @@
                 i.fas.fa-circle
                 | #[b Diversificar]. Fraccionar el riesgo de un área en pequeñas secciones que incluyan otras áreas, con el fin de afectar todo el proyecto o la entidad en general (es mejor sacrificar un pequeño % de un área al 100 % del área).
 
-        .col-md-6
+        .col-md-6.desktop
           figure
             img(src='@/assets/curso/temas/tema1/img38.svg', alt='Imagen decorativa')
+            figcaption Nota. Adaptado de Estrategias de tratamiento de riesgos,  Comunidad de Madrid (s.f.). 
+        .col-md-12.movil
+          figure
+            img(src='@/assets/curso/temas/tema1/img38_.svg', alt='Imagen decorativa')
             figcaption Nota. Adaptado de Estrategias de tratamiento de riesgos,  Comunidad de Madrid (s.f.). 
             
             

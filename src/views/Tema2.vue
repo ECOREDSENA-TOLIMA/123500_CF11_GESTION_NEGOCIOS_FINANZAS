@@ -221,10 +221,15 @@
     .titulo-sexto.color-acento-contenido.offset-1
       h5 Figura 3.
       span  #[i  Modelo de coordinación comisión sectorial.]
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-10.desktop
         figure
           img(src='@/assets/curso/temas/tema2/img10.svg', alt='Esquema que representa el procedimiento de comisión sectorial, el cual está compuesto por: ColCERT. Comando  Conjunto Cibernético. Centro Cibernético Policial.')
+          figcaption Adaptado del Modelo de coordinación,  Conpes (2011). 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.movil
+        figure
+          img(src='@/assets/curso/temas/tema2/img10_.svg', alt='Esquema que representa el procedimiento de comisión sectorial, el cual está compuesto por: ColCERT. Comando  Conjunto Cibernético. Centro Cibernético Policial.')
           figcaption Adaptado del Modelo de coordinación,  Conpes (2011). 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -255,9 +260,13 @@
       span  #[i  Principios]
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10.desktop
         figure
           img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.movil
+        figure
+          img(src='@/assets/curso/temas/tema2/img12_.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p La protección de la información se realiza manteniendo los principios (confidencialidad, integridad y disponibilidad) donde esté, incluye los dispositivos que la almacenan, procesan y transmiten y todos los recursos que intervienen en su ciclo de vida, las personas, los procesos y la tecnología que se utilicen; todo esto mediante el uso de políticas, procedimientos, sensibilización y tecnologías.

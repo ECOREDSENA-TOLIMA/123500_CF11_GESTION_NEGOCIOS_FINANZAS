@@ -57,19 +57,19 @@
             figure
               img(src='@/assets/curso/temas/tema2/img2.svg', alt='')
               figcaption Nota. Adaptada de Elementos de la política, MinTIC (2019).  
-          .tarjeta.bg2.p-3(x="50.2%" y="17%" numero="+")
+          .tarjeta.bg2.p-3(x="50.2%" y="15.5%" numero="+")
             p Elementos constitutivos de la Política de Gobierno Digital que establece dos líneas de acción.
-          .tarjeta.bg2.p-3(x="29.5%" y="35%" numero="+")
+          .tarjeta.bg2.p-3(x="29.7%" y="37.2%" numero="+")
             p Busca mejorar el funcionamiento de las entidades públicas y su relación con otras entidades, por ejemplo, mejorar el funcionamiento del SENA y su interacción con entidades como el Ministerio de Educación o la Registraduría Nacional.
-          .tarjeta.bg2.p-3(x="70.5%" y="35%" numero="+")
+          .tarjeta.bg2.p-3(x="70.5%" y="36.7%" numero="+")
             p Busca fortalecer la relación de los ciudadanos con el Estado promoviendo el uso de los datos públicos y participación del diseño de conjunto de servicios, políticas y soluciones a problemáticas de interés común, por ejemplo, que la ciudadanía participe activamente proponiendo necesidades de formación para servidores públicos y que en conjunto con el SENA se ofrezcan programas o acciones de capacitación para suplirlas.
-          .tarjeta.bg2.p-3(x="29.5%" y="51%" numero="+")
+          .tarjeta.bg2.p-3(x="29.6%" y="52.1%" numero="+")
             p El SENA implementa lineamientos de seguridad de la información en procesos, trámites y servicios, sistemas de información, infraestructura y en general en todos los activos de información, con el fin de preservar la confidencialidad, la integridad, la disponibilidad y la privacidad de los datos.
-          .tarjeta.bg2.p-3(x="50.2%" y="51%" numero="+")
+          .tarjeta.bg2.p-3(x="50.2%" y="51.1%" numero="+")
             p El SENA aplica el enfoque de arquitectura empresarial para la gestión de TI, lo que permite trazar el mapa de ruta respecto a los lineamientos y mejores prácticas para sus inversiones en tecnología.
-          .tarjeta.bg2.p-3(x="70.5%" y="51%" numero="+")
+          .tarjeta.bg2.p-3(x="70.5%" y="52%" numero="+")
             p El SENA debe prestar servicios digitales a los ciudadanos como, por ejemplo, autenticación biométrica, autenticación con cédula digital, carpeta ciudadana, solicitud de certificaciones mediante medios electrónicos, entre otros.
-          .tarjeta.bg2.p-3(x="50.2%" y="63%" numero="+")
+          .tarjeta.bg2.p-3(x="50.1%" y="78.3%" numero="+")
             p Aspectos que articulados permiten el desarrollo de los componentes de la política.
 
     .row.justify-content-center

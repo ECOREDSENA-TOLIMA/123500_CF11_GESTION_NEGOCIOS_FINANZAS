@@ -7,13 +7,15 @@
         span 2
       h1 Gestión de la información
     
-    .bloque-texto-d.color-secundario.p-4(data-aos="fade-left").mb-5
-      .bloque-texto-d__texto.mb-2
-        i.fas.fa-quote-left
-        p.mb-0 La Política de Gobierno Digital es una política de Estado liderada por el Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia - MinTIC que tiene como objetivo promover el uso y aprovechamiento de las TIC para fortalecer y garantizar un Estado y ciudadanos innovadores, competitivos y dinámicos, que otorguen valor público en un entorno de confianza digital.
-        i.fas.fa-quote-right
-      .bloque-texto-d__autor 
-        .h5.mb-0 (MinTIC, 2019, p. 11). 
+    .row.justify-content-center
+      .col-lg-10.col-12
+        .bloque-texto-d.color-secundario.p-4(data-aos="fade-left").mb-5
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            p.mb-0 La Política de Gobierno Digital es una política de Estado liderada por el Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia - MinTIC que tiene como objetivo promover el uso y aprovechamiento de las TIC para fortalecer y garantizar un Estado y ciudadanos innovadores, competitivos y dinámicos, que otorguen valor público en un entorno de confianza digital.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h5.mb-0 (MinTIC, 2019, p. 11). 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Esta política consiste en dos componentes que se desarrollan mediante tres habilitadores, todos en pro de lograr los cinco propósitos planteados para la implementación de esta política en las entidades públicas: 
@@ -48,25 +50,27 @@
       .col-lg-12
         p En el siguiente esquema se presentan los elementos de la Política de Gobierno Digital:
     
-    ImagenInfografica.color-acento-botones.mb-5.desktop
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema2/img2.svg', alt='')
-          figcaption Nota. Adaptada de Elementos de la política, MinTIC (2019).  
-      .tarjeta.bg2.p-3(x="50.2%" y="17%" numero="+")
-        p Elementos constitutivos de la Política de Gobierno Digital que establece dos líneas de acción.
-      .tarjeta.bg2.p-3(x="29.5%" y="35%" numero="+")
-        p Busca mejorar el funcionamiento de las entidades públicas y su relación con otras entidades, por ejemplo, mejorar el funcionamiento del SENA y su interacción con entidades como el Ministerio de Educación o la Registraduría Nacional.
-      .tarjeta.bg2.p-3(x="70.5%" y="35%" numero="+")
-        p Busca fortalecer la relación de los ciudadanos con el Estado promoviendo el uso de los datos públicos y participación del diseño de conjunto de servicios, políticas y soluciones a problemáticas de interés común, por ejemplo, que la ciudadanía participe activamente proponiendo necesidades de formación para servidores públicos y que en conjunto con el SENA se ofrezcan programas o acciones de capacitación para suplirlas.
-      .tarjeta.bg2.p-3(x="29.5%" y="51%" numero="+")
-        p El SENA implementa lineamientos de seguridad de la información en procesos, trámites y servicios, sistemas de información, infraestructura y en general en todos los activos de información, con el fin de preservar la confidencialidad, la integridad, la disponibilidad y la privacidad de los datos.
-      .tarjeta.bg2.p-3(x="50.2%" y="51%" numero="+")
-        p El SENA aplica el enfoque de arquitectura empresarial para la gestión de TI, lo que permite trazar el mapa de ruta respecto a los lineamientos y mejores prácticas para sus inversiones en tecnología.
-      .tarjeta.bg2.p-3(x="70.5%" y="51%" numero="+")
-        p El SENA debe prestar servicios digitales a los ciudadanos como, por ejemplo, autenticación biométrica, autenticación con cédula digital, carpeta ciudadana, solicitud de certificaciones mediante medios electrónicos, entre otros.
-      .tarjeta.bg2.p-3(x="50.2%" y="63%" numero="+")
-        p Aspectos que articulados permiten el desarrollo de los componentes de la política.
+    .row.justify-content-center.align-items-center
+      .col-lg-10.col-12
+        ImagenInfografica.color-acento-botones.mb-5.desktop
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img2.svg', alt='')
+              figcaption Nota. Adaptada de Elementos de la política, MinTIC (2019).  
+          .tarjeta.bg2.p-3(x="50.2%" y="17%" numero="+")
+            p Elementos constitutivos de la Política de Gobierno Digital que establece dos líneas de acción.
+          .tarjeta.bg2.p-3(x="29.5%" y="35%" numero="+")
+            p Busca mejorar el funcionamiento de las entidades públicas y su relación con otras entidades, por ejemplo, mejorar el funcionamiento del SENA y su interacción con entidades como el Ministerio de Educación o la Registraduría Nacional.
+          .tarjeta.bg2.p-3(x="70.5%" y="35%" numero="+")
+            p Busca fortalecer la relación de los ciudadanos con el Estado promoviendo el uso de los datos públicos y participación del diseño de conjunto de servicios, políticas y soluciones a problemáticas de interés común, por ejemplo, que la ciudadanía participe activamente proponiendo necesidades de formación para servidores públicos y que en conjunto con el SENA se ofrezcan programas o acciones de capacitación para suplirlas.
+          .tarjeta.bg2.p-3(x="29.5%" y="51%" numero="+")
+            p El SENA implementa lineamientos de seguridad de la información en procesos, trámites y servicios, sistemas de información, infraestructura y en general en todos los activos de información, con el fin de preservar la confidencialidad, la integridad, la disponibilidad y la privacidad de los datos.
+          .tarjeta.bg2.p-3(x="50.2%" y="51%" numero="+")
+            p El SENA aplica el enfoque de arquitectura empresarial para la gestión de TI, lo que permite trazar el mapa de ruta respecto a los lineamientos y mejores prácticas para sus inversiones en tecnología.
+          .tarjeta.bg2.p-3(x="70.5%" y="51%" numero="+")
+            p El SENA debe prestar servicios digitales a los ciudadanos como, por ejemplo, autenticación biométrica, autenticación con cédula digital, carpeta ciudadana, solicitud de certificaciones mediante medios electrónicos, entre otros.
+          .tarjeta.bg2.p-3(x="50.2%" y="63%" numero="+")
+            p Aspectos que articulados permiten el desarrollo de los componentes de la política.
 
     .row.justify-content-center
       figure.movil

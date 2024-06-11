@@ -275,58 +275,60 @@
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Análisis de incertidumbre
 
-    .row.justify-content-center.align-items-center.mb-5.desktop
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Resultados conocidos
-              p.text-small Los posibles resultados que pueden obtenerse son conocidos a #[i priori].
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Probabilidades
-              p.text-small Análisis de probabilidades de cada opción.  Medir el resultado.
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}")      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Evaluación y cálculo
-              p.text-small Apuesta de forma analítica por una opción u otra, con base en información.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}")      
+    .col.desktop
       .row.justify-content-center.align-items-center.mb-5
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Efectos posibles
-              p.text-small Valoración de efectos posibles con conciencia que pueden producir efectos no esperados.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}")      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Posibilidades
-              p.text-small La incertidumbre no se puede medir de forma controlada.  Solo se valoran opciones.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Intuición y experiencia
-              p.text-small Se trata de mejorar posibilidades actuando de forma intuitiva.
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img19.png')})`}")
+          .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Resultados conocidos
+                  p.text-small Los posibles resultados que pueden obtenerse son conocidos a #[i priori].
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")      
+          .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Probabilidades
+                  p.text-small Análisis de probabilidades de cada opción.  Medir el resultado.
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}")      
+          .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Evaluación y cálculo
+                  p.text-small Apuesta de forma analítica por una opción u otra, con base en información.
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}")     
+
+      .row.justify-content-center.align-items-center.mb-5
+          .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Efectos posibles
+                  p.text-small Valoración de efectos posibles con conciencia que pueden producir efectos no esperados.
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}")      
+          .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Posibilidades
+                  p.text-small La incertidumbre no se puede medir de forma controlada.  Solo se valoran opciones.
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Intuición y experiencia
+                  p.text-small Se trata de mejorar posibilidades actuando de forma intuitiva.
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img19.png')})`}")
 
     .row.justify-content-center.align-items-center.mb-5.movil      
       .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-12
@@ -699,8 +701,17 @@
     
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Estrategias de evitación")
-        .col-md-6.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0
           p El objetivo es minimizar o reducir lo más posible la probabilidad de que el riesgo ocurra. El proceso se basa en: 
+        .row.justify-content-center
+          .col-md-10.desktop.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema1/img38.svg', alt='Imagen decorativa')
+              figcaption Nota. Adaptado de Estrategias de tratamiento de riesgos,  Comunidad de Madrid (s.f.). 
+          .col-md-12.movil
+            figure
+              img(src='@/assets/curso/temas/tema1/img38_.svg', alt='Imagen decorativa')
+              figcaption Nota. Adaptado de Estrategias de tratamiento de riesgos,  Comunidad de Madrid (s.f.). 
           .cblanco1
             ul.lista-ul
               li
@@ -716,14 +727,7 @@
                 i.fas.fa-circle
                 | #[b Diversificar]. Fraccionar el riesgo de un área en pequeñas secciones que incluyan otras áreas, con el fin de afectar todo el proyecto o la entidad en general (es mejor sacrificar un pequeño % de un área al 100 % del área).
 
-        .col-md-6.desktop
-          figure
-            img(src='@/assets/curso/temas/tema1/img38.svg', alt='Imagen decorativa')
-            figcaption Nota. Adaptado de Estrategias de tratamiento de riesgos,  Comunidad de Madrid (s.f.). 
-        .col-md-12.movil
-          figure
-            img(src='@/assets/curso/temas/tema1/img38_.svg', alt='Imagen decorativa')
-            figcaption Nota. Adaptado de Estrategias de tratamiento de riesgos,  Comunidad de Madrid (s.f.). 
+        
             
             
       .row(titulo="Estimación de minimización")
@@ -749,92 +753,79 @@
       .col-lg-12
         p A continuación, se presentan sus principales características:
     
-    .row.justify-content-center
-      .tarjeta.tarjeta--azul.p-4.mb-5.bgslyder
-        SlyderA(tipo="b").mb-5
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+      .row(titulo="Definición")
+        .col-md-6.mb-4.mb-md-0
+          p Norma internacional para la gestión de riesgos, que ofrece orientaciones y fundamentos para minimizar el impacto de los riesgos presentes en las organizaciones.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
+      
+      .row(titulo="Origen")
+        .col-md-6.mb-4.mb-md-0
+          p Se publica en 2009 por la Organización Internacional de Normalización (ISO) en colaboración con la Comisión Electrotécnica Internacional (IEC).
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img42.png', alt='Imagen decorativa')
+
+      .row(titulo="Objetivos")
+        .col-md-6.mb-4.mb-md-0
+          .cblanco2
+            ul.lista-ul
+              li
+                i.fas.fa-circle
+                | Gestionar sistemas especializados para la normalización mundial. 
+              li
+                i.fas.fa-circle
+                | Apoyar a las empresas en el manejo de los riesgos de forma efectiva, recomendando el desarrollo, la implementación y la mejora continua de sus marcos de trabajo, con el propósito de integrar la cultura de gestión de riesgos en cada área de la organización.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
+
+      .row(titulo="Estructura")
+        .col-md-6.mb-4.mb-md-0
+          p Dada la diversidad y dificultad de los riesgos, la ISO 31000 no está enfocada en un sistema particular de gestión.  Fue desarrollada como una guía de buenas prácticas para la implementación de acciones asociadas con la gestión de riesgos. Su diseño e implementación dependerá en gran medida de las necesidades de cada entidad, sus metas específicas, políticas, servicios, etc.
+          p Está compuesta de tres elementos fundamentales en la gestión de riesgos:
+          .cblanco2
+            ul.lista-ul
+              li
+                i.fas.fa-circle
+                | Los principios para la gestión de riesgos.
+              li
+                i.fas.fa-circle
+                | La estructura de soporte o marco de trabajo. 
+              li
+                i.fas.fa-circle
+                | El proceso de gestión de riesgos, este proceso consta de tres etapas: el  establecimiento del contexto, la valoración de los riesgos y el tratamiento de los mismos.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
+
+      .row(titulo="Principios")
+        .col-md-12.mb-4.mb-md-0
           .row
             .col-md-6.mb-4.mb-md-0.p-4
-              h4 Definición
-              p Norma internacional para la gestión de riesgos, que ofrece orientaciones y fundamentos para minimizar el impacto de los riesgos presentes en las organizaciones.
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
-          .row
-            .col-md-6.mb-4.mb-md-0.p-4
-              h4 Origen
-              p Se publica en 2009 por la Organización Internacional de Normalización (ISO) en colaboración con la Comisión Electrotécnica Internacional (IEC).
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img42.png', alt='Imagen decorativa')
-          .row
-            .col-md-6.mb-4.mb-md-0.p-4
-              h4 Objetivos
               .cblanco2
                 ul.lista-ul
                   li
                     i.fas.fa-circle
-                    | Gestionar sistemas especializados para la normalización mundial. 
+                    | #[b Crear y proteger el valor.] Contribuye a la consecución de objetivos así como la mejora de aspectos.
                   li
                     i.fas.fa-circle
-                    | Apoyar a las empresas en el manejo de los riesgos de forma efectiva, recomendando el desarrollo, la implementación y la mejora continua de sus marcos de trabajo, con el propósito de integrar la cultura de gestión de riesgos en cada área de la organización.
-
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
-          .row
-            .col-md-6.mb-4.mb-md-0.p-4
-              h4 Estructura
-              p Dada la diversidad y dificultad de los riesgos, la ISO 31000 no está enfocada en un sistema particular de gestión.  Fue desarrollada como una guía de buenas prácticas para la implementación de acciones asociadas con la gestión de riesgos. Su diseño e implementación dependerá en gran medida de las necesidades de cada entidad, sus metas específicas, políticas, servicios, etc.
-              p Está compuesta de tres elementos fundamentales en la gestión de riesgos:
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
-          .row
-            .col-md-6.mb-4.mb-md-0.p-4
-              h4 Estructura
-              .cblanco2
-                ul.lista-ul
+                    | #[b Estar integrada en los procesos de una organización.] No debe ser entendida como una actividad aislada, sino como parte de las actividades y procesos principales de una organización.
                   li
                     i.fas.fa-circle
-                    | Los principios para la gestión de riesgos.
+                    | #[b Formar parte de la toma de decisiones.] Ayuda a la toma de decisiones ,evaluando la información sobre las distintas alternativas.
                   li
                     i.fas.fa-circle
-                    | La estructura de soporte o marco de trabajo. 
+                    | #[b Tratar explícitamente la incertidumbre.] Aborda aspectos de la toma de decisiones que son inciertos, la naturaleza de esa incertidumbre y cómo puede tratarse.
                   li
                     i.fas.fa-circle
-                    | El proceso de gestión de riesgos, este proceso consta de tres etapas: el  establecimiento del contexto, la valoración de los riesgos y el tratamiento de los mismos.
-
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
-          .row
-            .col-md-12.mb-4.mb-md-0.p-4
-              h4 Principios
-              .row
-                .col-md-12.mb-4.mb-md-0.p-4
-                  .cblanco2
-                    ul.lista-ul
-                      li
-                        i.fas.fa-circle
-                        | #[b Crear y proteger el valor.] Contribuye a la consecución de objetivos así como la mejora de aspectos.
-                      li
-                        i.fas.fa-circle
-                        | #[b Estar integrada en los procesos de una organización.] No debe ser entendida como una actividad aislada, sino como parte de las actividades y procesos principales de una organización.
-                      li
-                        i.fas.fa-circle
-                        | #[b Formar parte de la toma de decisiones.] Ayuda a la toma de decisiones ,evaluando la información sobre las distintas alternativas.
-                      li
-                        i.fas.fa-circle
-                        | #[b Tratar explícitamente la incertidumbre.] Aborda aspectos de la toma de decisiones que son inciertos, la naturaleza de esa incertidumbre y cómo puede tratarse.
-                      li
-                        i.fas.fa-circle
-                        | #[b Ser sistemática, estructurada y adecuada.] Contribuye a la eficiencia y, consecuentemente, a la obtención de resultados fiables.
-                      li
-                        i.fas.fa-circle
-                        | #[b Basarse en la mejor información disponible.] Los #[i inputs] del proceso de gestión del riesgo están basados en fuentes de información como la propia experiencia, la observación y la opinión de expertos.
-          .row
-            .col-md-12.mb-4.mb-md-0.p-4
-              h4 Principios
+                    | #[b Ser sistemática, estructurada y adecuada.] Contribuye a la eficiencia y, consecuentemente, a la obtención de resultados fiables.
+                  li
+                    i.fas.fa-circle
+                    | #[b Basarse en la mejor información disponible.] Los #[i inputs] del proceso de gestión del riesgo están basados en fuentes de información como la propia experiencia, la observación y la opinión de expertos.
+            .col-md-6.mb-4.mb-md-0
               .row
                 .col-md-12.mb-4.mb-md-0.p-4
                   .cblanco2
@@ -854,8 +845,6 @@
                       li
                         i.fas.fa-circle
                         | #[b Facilitar la mejora continua de la organización.] Las organizaciones deberán desarrollar e implementar estrategias para mejorar continuamente, tanto en la gestión del riesgo como en cualquier otro aspecto de la organización.
-                  
-    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p También están los sistemas de gestión de seguridad de la cadena de suministro ISO 28000 que permiten a las empresas tener la competencia de controlar las vulnerabilidades y las amenazas que lleguen afectar la seguridad. De la Norma ISO 2800 se destaca lo siguiente:

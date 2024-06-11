@@ -67,8 +67,12 @@
         p El SENA debe prestar servicios digitales a los ciudadanos como, por ejemplo, autenticación biométrica, autenticación con cédula digital, carpeta ciudadana, solicitud de certificaciones mediante medios electrónicos, entre otros.
       .tarjeta.bg2.p-3(x="50.2%" y="63%" numero="+")
         p Aspectos que articulados permiten el desarrollo de los componentes de la política.
+
+    .row.justify-content-center
+      figure.movil
+        img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='')
     
-    ImagenInfografica.color-acento-botones.mb-5.movil
+    //-ImagenInfografica.color-acento-botones.mb-5.movil
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='')
@@ -145,7 +149,7 @@
           p Cuando se habla de los Sistemas de Gestión de Seguridad de la Información – SGSI se habla de reconocer la importancia del uso reflexivo de la tecnología y las comunicaciones, entendiendo que su uso irresponsable expone a diario a múltiples amenazas que ponen en riesgo la información y con ello, la operación de las entidades. Dichos riesgos provienen tanto del exterior como del interior. Para poder trabajar en un ambiente seguro es necesario identificar la información, determinar su valor e implementar mecanismos o controles en los procesos, las personas y la tecnología. Con el apoyo e implementación del Sistema de gestión de seguridad y privacidad de la información se puede identificar y gestionar los posibles riesgos que atenten contra la seguridad de la información de la empresa.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Para hablar del SGSI es importante entender los diferentes conceptos asociados y la diferencia entre seguridad de la información, seguridad informática y ciberseguridad, como se expone a continuación.:
+        p Para hablar del SGSI es importante entender los diferentes conceptos asociados y la diferencia entre seguridad de la información, seguridad informática y ciberseguridad, como se expone a continuación:
     
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -181,8 +185,13 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        figure
+        figure.desktop
           img(src='@/assets/curso/temas/tema2/img8.svg', alt='Figura que relaciona los aspectos de ciberseguridad y de otros dominios, destacando aspectos en seguridad como: información, aplicación, cibermética, red e internet.')
+
+    .row.justify-content-center.align-items-center.mb-5.movil
+      .col-lg-10
+        figure
+          img(src='@/assets/curso/temas/tema2/img8_1.svg', alt='Figura que relaciona los aspectos de ciberseguridad y de otros dominios, destacando aspectos en seguridad como: información, aplicación, cibermética, red e internet.')
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -262,11 +271,11 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.desktop
         figure
-          img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/img12.svg', alt='Figura que contiene una pirámide de los principios del SGSI, los cuales son son: Lineamientos.Procesos.Procedimientos.Estándares.Arquitectura/Servicios.')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.movil
         figure
-          img(src='@/assets/curso/temas/tema2/img12_.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/img12_.svg', alt='Figura que contiene una pirámide de los principios del SGSI, los cuales son son: Lineamientos.Procesos.Procedimientos.Estándares.Arquitectura/Servicios.')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p La protección de la información se realiza manteniendo los principios (confidencialidad, integridad y disponibilidad) donde esté, incluye los dispositivos que la almacenan, procesan y transmiten y todos los recursos que intervienen en su ciclo de vida, las personas, los procesos y la tecnología que se utilicen; todo esto mediante el uso de políticas, procedimientos, sensibilización y tecnologías.

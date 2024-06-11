@@ -198,12 +198,12 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.desktop 
         figure
-          img(src='@/assets/curso/temas/tema1/img8.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img8.svg', alt='Esquema que relaciona el enfoque mejorado para a GRE, el cual se compone de: Contribución al control del riesgo: reforma, ajuste, realizar.Sofisticación del proceso.')
         figcaption Nota. Tomado de Risk likelihood and magnitude, HoAdaptadopkin (2010).
 
       .col-lg-12.movil
         figure
-          img(src='@/assets/curso/temas/tema1/img9.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img9.svg', alt='Esquema que relaciona el enfoque mejorado para a GRE, el cual se compone de: Contribución al control del riesgo: reforma, ajuste, realizar.Sofisticación del proceso.')
           figcaption Nota. Tomado de Risk likelihood and magnitude, HoAdaptadopkin (2010).
     
     .h4.mb-4(data-aos="zoom-down-right")
@@ -275,8 +275,8 @@
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Análisis de incertidumbre
 
-    .row.justify-content-center.align-items-center.mb-5      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
+    .row.justify-content-center.align-items-center.mb-5.desktop
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -284,7 +284,7 @@
               h5 Resultados conocidos
               p.text-small Los posibles resultados que pueden obtenerse son conocidos a #[i priori].
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -293,7 +293,7 @@
               p.text-small Análisis de probabilidades de cada opción.  Medir el resultado.
               br
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}")      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -302,7 +302,7 @@
               p.text-small Apuesta de forma analítica por una opción u otra, con base en información.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}")      
       .row.justify-content-center.align-items-center.mb-5
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -310,7 +310,7 @@
               h5 Efectos posibles
               p.text-small Valoración de efectos posibles con conciencia que pueden producir efectos no esperados.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}")      
-      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-8
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -318,10 +318,63 @@
               h5 Posibilidades
               p.text-small La incertidumbre no se puede medir de forma controlada.  Solo se valoran opciones.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-8
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
         .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Intuición y experiencia
+              p.text-small Se trata de mejorar posibilidades actuando de forma intuitiva.
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img19.png')})`}")
+
+    .row.justify-content-center.align-items-center.mb-5.movil      
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-12
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor.p-5
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Resultados conocidos
+              p.text-small Los posibles resultados que pueden obtenerse son conocidos a #[i priori].
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")      
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-12
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor.p-5
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Probabilidades
+              p.text-small Análisis de probabilidades de cada opción.  Medir el resultado.
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}")      
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-12
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor.p-5
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Evaluación y cálculo
+              p.text-small Apuesta de forma analítica por una opción u otra, con base en información.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}")      
+      .row.justify-content-center.align-items-center.mb-5
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-12
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor.p-5
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Efectos posibles
+              p.text-small Valoración de efectos posibles con conciencia que pueden producir efectos no esperados.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}")      
+      .col-sm-5.col-xl-3.mb-4.mb-xl-0.h390.col-12
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor.p-5
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Posibilidades
+              p.text-small La incertidumbre no se puede medir de forma controlada.  Solo se valoran opciones.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.png')})`}")      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-12
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor.p-5
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Intuición y experiencia
               p.text-small Se trata de mejorar posibilidades actuando de forma intuitiva.

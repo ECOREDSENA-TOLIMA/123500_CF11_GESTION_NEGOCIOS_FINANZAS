@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que contiene un esquema que resume la temática tratada durante este componente formativo, destacando lo que significa el riesgo y que este es proyecto como riesgo empresarial, el cual incluye los sistemas SGRE y SGSI.")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

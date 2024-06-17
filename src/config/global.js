@@ -122,7 +122,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_11_123500_DU.zip',
       },
       {
         icono: 'fas fa-download',

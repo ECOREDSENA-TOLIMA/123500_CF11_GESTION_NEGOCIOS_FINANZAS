@@ -270,7 +270,7 @@
         p Es una herramienta que establece un conjunto de reglas o principios para calcular la ocurrencia de los eventos, asignando un número a la posibilidad de que un evento ocurra. Aproxímese al concepto de teoría de probabilidades a través del siguiente video:
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/m-UUs_SwA9k?si=ltrWMitmE8TCkCJp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Análisis de incertidumbre

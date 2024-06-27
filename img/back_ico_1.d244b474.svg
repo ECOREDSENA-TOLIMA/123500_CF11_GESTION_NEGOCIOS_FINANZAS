@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="610.001" height="25.708" viewBox="0 0 610.001 25.708">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#16654d" stop-opacity="0.329"/>
+      <stop offset="0.384" stop-color="#135843" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#0c5e46"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="0.856" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.09" stop-color="#f9f9f9"/>
+      <stop offset="1" stop-color="#669788"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1072620" data-name="Grupo 1072620" transform="translate(-195.07 -3343.341)">
+    <path id="Trazado_609295" data-name="Trazado 609295" d="M-8895.93-8360.451h610" transform="translate(9091 11728)" fill="none" stroke="#0c5e46" stroke-width="3"/>
+    <g id="Trazado_609296" data-name="Trazado 609296" transform="translate(213.849 3343.134)" fill="#0c5e46">
+      <path d="M 5.03718900680542 14.64550971984863 L 1.119522929191589 14.64550971984863 L -2.435570955276489 0.7070299983024597 L 1.482104182243347 0.7070299983024597 L 5.03718900680542 14.64550971984863 Z" stroke="none"/>
+      <path d="M -1.792026996612549 1.207030296325684 L 1.508002161979675 14.14550971984863 L 4.393662452697754 14.14550971984863 L 1.093624711036682 1.207030296325684 L -1.792026996612549 1.207030296325684 M -3.079096794128418 0.2070302963256836 L 1.870583176612854 0.2070302963256836 L 5.680733203887939 15.14550971984863 L 0.7310432195663452 15.14550971984863 L -3.079096794128418 0.2070302963256836 Z" stroke="none" fill="#0c5e46"/>
+    </g>
+    <path id="Trazado_609297" data-name="Trazado 609297" d="M-3.079.207h4.95l3.81,14.938H.731Z" transform="translate(206.425 3343.134)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_609298" data-name="Trazado 609298" d="M-3.079.207h4.95l3.81,14.938H.731Z" transform="translate(199 3343.134)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

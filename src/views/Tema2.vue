@@ -145,12 +145,12 @@
           img(src='@/assets/curso/temas/tema2/img4.png', alt='')
       .col-lg-7
         p La información es indispensable para abordar diferentes procesos administrativos, académicos, operativos, tecnológicos, etc. El tratamiento de la información en cualquier formato (digital, físico, magnético) es una de las actividades que realizan los sistemas de información que soportan los procesos. Del mismo modo, estos métodos incorporan los datos y los recursos físicos como el papel, o tecnológicos, así como los encargados de realizar estas actividades. 
-        p Al hablar de los activos que componen los sistemas de información se pueden reconocer los activos físicos (como los computadores) y los de almacenamiento (como USB, discos, cintas, etc.). No obstante, no es recomendable discriminar los demás activos, que aunque no son tangibles, sí son esenciales para las organizaciones como, por ejemplo, el conocimiento (#[i know-how]) de los funcionarios, la reputación, el #[i software] o la propiedad intelectual.
+        p Al hablar de los activos que componen los sistemas de información, se pueden reconocer los activos físicos (como los computadores) y los de almacenamiento (como USB, discos, cintas, etc.). No obstante, no es recomendable discriminar los demás activos, que aunque no son tangibles, sí son esenciales para las organizaciones como, por ejemplo, el conocimiento (#[i know-how]) de los funcionarios, la reputación, el #[i software] o la propiedad intelectual.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .tarjeta.tarjeta--verde.p-4
-          p Cuando se habla de los Sistemas de Gestión de Seguridad de la Información – SGSI se habla de reconocer la importancia del uso reflexivo de la tecnología y las comunicaciones, entendiendo que su uso irresponsable expone a diario a múltiples amenazas que ponen en riesgo la información y con ello, la operación de las entidades. Dichos riesgos provienen tanto del exterior como del interior. Para poder trabajar en un ambiente seguro es necesario identificar la información, determinar su valor e implementar mecanismos o controles en los procesos, las personas y la tecnología. Con el apoyo e implementación del Sistema de gestión de seguridad y privacidad de la información se puede identificar y gestionar los posibles riesgos que atenten contra la seguridad de la información de la empresa.
+          p Cuando se habla de los Sistemas de Gestión de Seguridad de la Información – SGSI se habla de reconocer la importancia del uso reflexivo de la tecnología y las comunicaciones, entendiendo que su uso irresponsable expone a diario a múltiples amenazas que ponen en riesgo la información y con ello, la operación de las entidades. Dichos riesgos provienen tanto del exterior como del interior. Para poder trabajar en un ambiente seguro es necesario identificar la información, determinar su valor e implementar mecanismos o controles en los procesos, las personas y la tecnología. Con el apoyo e implementación del Sistema de gestión de seguridad y privacidad de la información, se puede identificar y gestionar los posibles riesgos que atenten contra la seguridad de la información de la empresa.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Para hablar del SGSI es importante entender los diferentes conceptos asociados y la diferencia entre seguridad de la información, seguridad informática y ciberseguridad, como se expone a continuación:
@@ -253,7 +253,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img11.png', alt='')
       .col-lg-6
-        p La Ley 1712 de 2014 creó la #[b Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional], que obliga a publicar en las páginas web tres instrumentos de gestión con el fin garantizar la transparencia y el acceso a la información pública por parte de todos los ciudadanos:
+        p La Ley 1712 de 2014 creó la #[b Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional], que obliga a publicar en las páginas web tres instrumentos de gestión con el fin de garantizar la transparencia y el acceso a la información pública por parte de todos los ciudadanos:
         ul.lista-ul
           li
             i.fas.fa-check
@@ -311,12 +311,14 @@
     p(data-aos="fade-left") A continuación, se presentan los elementos de la Ley de Protección de Datos Personales y la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Ley de protección de datos personales Ley 1581 de 2012 ")
+      .row(titulo="Ley de protección de datos personales Ley 1581 de 2012")
         .col-md-6.mb-4.mb-md-0
           p Permite saber cómo identificar un dato personal de acuerdo con la tipología que define la ley y así realizar la correcta clasificación de la información. Clasificados así:
-          p #[b Dato personal.] Toda la información de una persona que permite su identificación (documento de identificación personal, fecha de nacimiento, edad, sexo, estado civil, trayectoria laboral, entre otros).  
           .cblanco1
             ul.lista-ul
+              li
+                i.fas.fa-circle
+                | #[b Dato personal.] Toda la información de una persona que permite su identificación (documento de identificación personal, fecha de nacimiento, edad, sexo, estado civil, trayectoria laboral, entre otros). 
               li
                 i.fas.fa-circle
                 | #[b Dato público.]  Determinado así por la ley o la Constitución Política de Colombia, también aquellos que no sean semiprivados o privados.

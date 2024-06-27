@@ -29,7 +29,7 @@
               p Inflación, interés, políticas, tasa de cambio, desempleo, riesgo del país.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Según la Norma ISO 31000-2018 el proceso de evaluación de los riesgos consta de cuatro pasos básicos: #[b identificación, análisis, valoración y tratamiento] de los riesgos, que dejan a disposición de la empresa una amplia gama de técnicas para identificar la incertidumbre que puede llegar a afectar a uno o a varios de sus objetivos. A continuación se describen los cuatro pasos mencionados.
+        p Según la Norma ISO 31000-2018 el proceso de evaluación de los riesgos consta de cuatro pasos básicos: #[b identificación, análisis, valoración y tratamiento] de los riesgos, que dejan a disposición de la empresa una amplia gama de técnicas para identificar la incertidumbre que puede llegar a afectar a uno o a varios de sus objetivos. A continuación, se describen los cuatro pasos mencionados.
      
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -81,7 +81,7 @@
                         | Factores relacionados con el tiempo.
                       li
                         i.fas.fa-circle.fa-2sx
-                        | Sesgos, supuestos y creencias de las personas involucradas
+                        | Sesgos, supuestos y creencias de las personas involucradas.
                 figure
                   img(src='@/assets/curso/temas/tema1/img3.jpg', alt='Imagen de prueba')
 
@@ -190,7 +190,7 @@
         p La GRE debe impactar en todos los niveles e incluirse en los modelos de la estrategia organizacional, con el fin de identificar alternativas de solución preventivas y no correctivas enfocadas siempre al cumplimiento de metas, independientemente del departamento al cual se esté aplicando la estrategia.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p El siguiente esquema presenta el nivel de sofisticación en la gestión el riesgo:
+        p El siguiente esquema presenta el nivel de sofisticación en la gestión del riesgo:
     
     .titulo-sexto.color-acento-contenido.offset-1
       h5 Figura 1.
@@ -238,7 +238,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p La forma más eficiente de incrementar o cumplir las metas establecidas es tener siempre presente que existen riesgos que pueden afectar la situación. Antes de definir cualquier estrategia de gestión de riesgos es necesario analizar los posibles riesgos y clasificarlos así:
+        p La forma más eficiente de incrementar o cumplir las metas establecidas es tener siempre presente que existen riesgos que pueden afectar la situación. Antes de definir cualquier estrategia de gestión de riesgos, es necesario analizar los posibles riesgos y clasificarlos así:
         .cajon.color-primario.p-3.mb-4(style="background-color: #E1EFE3")
           p #[b Riesgo sistemático:] integra los elementos socio-político-económicos que afectan el normal funcionamiento de un proyecto o empresa, por ejemplo, crisis financieras, guerras, desplazamientos, entre otros.
         .cajon.color-secundario.p-3.mb-4(style="background-color: #DBE5F3")
@@ -448,7 +448,7 @@
             ul.lista-ul
               li
                 i.fas.fa-circle
-                | El tipo y la modalidad del proyecto son relevantes para la determinación del nivel de transferencia delas  responsabilidades.
+                | El tipo y la modalidad del proyecto son relevantes para la determinación del nivel de transferencia de las responsabilidades.
               li
                 i.fas.fa-circle
                 | La transferencia de los riesgos debe ser proporcional a la cantidad de información con la que se cuente para su mitigación.
@@ -489,7 +489,7 @@
                 ul.lista-ul
                   li
                     i.fas.fa-circle
-                    | Compartir y recopilar información de manera clara posibilita reconocer con rapidez los riesgos y actuar de acuerdo con su nivel de importancia
+                    | Compartir y recopilar información de manera clara posibilita reconocer con rapidez los riesgos y actuar de acuerdo con su nivel de importancia.
                   li
                     i.fas.fa-circle
                     | Identificar los riesgos de forma correcta permite establecer niveles en diferentes áreas de la empresa, lo que conlleva a establecer el objetivo del mapa de riesgos.                  
@@ -571,7 +571,7 @@
       .row(titulo="")
         .col-md-6.mb-4.mb-md-0
           h4 Identificar riesgos
-          p El trabajo en equipo se ve reflejado en el momento que cada responsable de área analice los procesos e identifique los riesgos propios de su área (esas situaciones que afectan el desempeño normal de las actividades). Identificados los riesgos se realiza un inventario o lista, con su descripción para conocer las posibles consecuencias.
+          p El trabajo en equipo se ve reflejado en el momento que cada responsable de área analice los procesos e identifique los riesgos propios de su área (esas situaciones que afectan el desempeño normal de las actividades). Identificados los riesgos, se realiza un inventario o lista, con su descripción para conocer las posibles consecuencias.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/img32.jpg', alt='Imagen decorativa')
@@ -581,7 +581,7 @@
             img(src='@/assets/curso/temas/tema1/img33.jpg', alt='Imagen decorativa')
         .col-md-6.mb-4.mb-md-0
           h4 Valorar los riesgos
-          p El equipo debe clasificar los riesgos, teniendo en cuenta la caracterización realizada en el paso anterior. A continuación se debe establecer un nivel de riesgo (alto, medio o bajo) y las acciones que se van a implementar. También se define si el riesgo es sistemático o no sistemático.        
+          p El equipo debe clasificar los riesgos, teniendo en cuenta la caracterización realizada en el paso anterior. A continuación, se debe establecer un nivel de riesgo (alto, medio o bajo) y las acciones que se van a implementar. También se define si el riesgo es sistemático o no sistemático.        
       .row(titulo="")
         .col-md-6.mb-4.mb-md-0.cblanco
           h4 Matriz de priorización
@@ -612,7 +612,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img35.png', alt='Imagen decorativa')
       .col-lg-6.cblanco
-        p Está basado en el diseño, la evaluación, la selección e implementación de acciones para plantear los riesgos identificados al interior de una empresa. Según la norma internacional ISO 31000 el tratamiento de riesgos es un proceso cambiante y repetitivo que requiere de actividades de formulación, planeación y evaluación, tales como:
+        p Está basado en el diseño, la evaluación, la selección e implementación de acciones para plantear los riesgos identificados al interior de una empresa. Según la norma internacional ISO 31000, el tratamiento de riesgos es un proceso cambiante y repetitivo que requiere de actividades de formulación, planeación y evaluación, tales como:
         ul.lista-ul
           li              
             i.fas.fa-circle
@@ -635,7 +635,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Las opciones del tratamiento de riesgo resultan más efectivas cuando se ponen en una balanza los beneficios y los costos. Los beneficios procedentes de la efectividad de una acción propuesta y los costos del esfuerzo y las desventajas que casualmente surjan como consecuencia de la implementación. Según la Norma ISO 31000 las opciones de tratamiento no son excluyentes entre sí e incluyen algunas de las siguientes acciones:
+        p Las opciones del tratamiento de riesgo resultan más efectivas cuando se ponen en una balanza los beneficios y los costos. Los beneficios procedentes de la efectividad de una acción propuesta y los costos del esfuerzo y las desventajas que casualmente surjan como consecuencia de la implementación. Según la Norma ISO 31000, las opciones de tratamiento no son excluyentes entre sí e incluyen algunas de las siguientes acciones:
     .bg1.p-4.mb-5
       .row.justify-content-center.align-items-center     
         .col-lg-7
@@ -676,7 +676,7 @@
             | Justificación para la elección de las opciones de tratamiento, incluyendo beneficios esperados.
           li              
             i.fas.fa-circle
-            | Quiénes son los responsables de aprobar e implementar el plan.
+            | ¿Quiénes son los responsables de aprobar e implementar el plan?.
           li              
             i.fas.fa-circle
             | Las acciones de tratamiento propuestas.
@@ -722,7 +722,7 @@
                 | #[b Reducir]. El objetivo es minimizar la probabilidad de que ocurra un evento desafortunado, minimizando sus consecuencias o asegurando los objetivos propuestos. Contar con un sistema de gestión de riesgos adecuado a la organización permite reducir los riesgos de manera significativa. 
               li
                 i.fas.fa-circle
-                | #[b Evitar]. Consiste en tomar la decisión acertada en el momento indicado, es decir, no ejecutar la actividad que trae consigo el riesgo, no poner en marcha el proyecto o contar con acciones alternativas de la actividad que ofrece los mismo resultados.
+                | #[b Evitar]. Consiste en tomar la decisión acertada en el momento indicado, es decir, no ejecutar la actividad que trae consigo el riesgo, no poner en marcha el proyecto o contar con acciones alternativas de la actividad que ofrece los mismos resultados.
               li
                 i.fas.fa-circle
                 | #[b Diversificar]. Fraccionar el riesgo de un área en pequeñas secciones que incluyan otras áreas, con el fin de afectar todo el proyecto o la entidad en general (es mejor sacrificar un pequeño % de un área al 100 % del área).
@@ -815,7 +815,7 @@
                     | #[b Estar integrada en los procesos de una organización.] No debe ser entendida como una actividad aislada, sino como parte de las actividades y procesos principales de una organización.
                   li
                     i.fas.fa-circle
-                    | #[b Formar parte de la toma de decisiones.] Ayuda a la toma de decisiones ,evaluando la información sobre las distintas alternativas.
+                    | #[b Formar parte de la toma de decisiones.] Ayuda a la toma de decisiones, evaluando la información sobre las distintas alternativas.
                   li
                     i.fas.fa-circle
                     | #[b Tratar explícitamente la incertidumbre.] Aborda aspectos de la toma de decisiones que son inciertos, la naturaleza de esa incertidumbre y cómo puede tratarse.

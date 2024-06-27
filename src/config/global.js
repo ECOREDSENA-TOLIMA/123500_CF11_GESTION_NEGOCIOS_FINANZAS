@@ -150,7 +150,7 @@ export default {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2016). Gestión del riesgo: orientación para la implementación de la NTC-ISO 31000. Icontec.',
       tipo: 'Libro',
-      descarga:
+      link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000012244&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
     {
@@ -158,7 +158,7 @@ export default {
       referencia:
         'Chaparro, M. (2014). Legislación informática y protección de datos en Colombia, comparada con otros países. Inventum, 9(17), p. 32-37.',
       tipo: 'Artículo',
-      descarga:
+      link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_doaj_primary_oai_doaj_org_article_d369f2b22f8f479ca3bbdf0c2f4ad238&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=PC',
     },
   ],
@@ -210,7 +210,7 @@ export default {
     },
     {
       referencia:
-        'Hopkin, P. (2010). Fundamentals of risk management: understanding, evaluating, and implementing effective risk management. Kogan Page Limited.',
+        'Hopkin, P. (2010). <i>Fundamentals of risk management: understanding, evaluating, and implementing effective risk management</i>. Kogan Page Limited.',
       link: '',
     },
     {
@@ -270,6 +270,11 @@ export default {
         },
         {
           nombre: 'Julia Isabel Roberto',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Asesoría metodológica y evaluación instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -279,16 +284,6 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Fernando Botero Mendoza',
-          cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Veimar Celis Meléndez',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
@@ -296,6 +291,16 @@ export default {
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

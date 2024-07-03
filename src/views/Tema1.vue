@@ -669,7 +669,7 @@
       .col-lg-5        
         figure
             img(src='@/assets/curso/temas/tema1/img37.png', alt='Imagen decorativa')
-      .col-lg-7.cblanco.text-small.p-4
+      .col-lg-7.cblanco.p-4
         ul.lista-ul
           li              
             i.fas.fa-circle

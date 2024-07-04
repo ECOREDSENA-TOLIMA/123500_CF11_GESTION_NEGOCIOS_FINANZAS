@@ -676,7 +676,7 @@
             | Justificación para la elección de las opciones de tratamiento, incluyendo beneficios esperados.
           li              
             i.fas.fa-circle
-            | ¿Quiénes son los responsables de aprobar e implementar el plan?.
+            | ¿Quiénes son los responsables de aprobar e implementar el plan?
           li              
             i.fas.fa-circle
             | Las acciones de tratamiento propuestas.

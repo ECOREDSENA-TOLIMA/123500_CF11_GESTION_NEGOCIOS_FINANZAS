@@ -664,7 +664,7 @@
             img(src='@/assets/curso/temas/tema1/img36.svg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-      p La implementación de los planes de tratamiento de riesgos consiste en determinar y detallar la manera en que tomarán las opciones seleccionadas, de modo que los involucrados entiendan y monitoreen el progreso del plan. De acuerdo con ISO 31000 el plan de tratamiento de riesgos permite reconocer claramente la disposición de la implementación de acciones, de tal forma que integre los procesos de gestión en la empresa, teniendo en cuenta las necesidades identificadas en atención a:
+      p La implementación de los planes de tratamiento de riesgos consiste en determinar y detallar la manera en que tomarán las opciones seleccionadas, de modo que los involucrados entiendan y monitoreen el progreso del plan. De acuerdo con ISO 31000, el plan de tratamiento de riesgos permite reconocer claramente la disposición de la implementación de acciones, de tal forma que integre los procesos de gestión en la empresa, teniendo en cuenta las necesidades identificadas en atención a:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5        
         figure

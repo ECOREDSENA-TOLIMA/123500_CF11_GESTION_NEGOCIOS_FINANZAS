@@ -84,9 +84,9 @@ export default {
             hash: 't_2_1',
           },
           {
-            numero: '2.1',
+            numero: '2.2',
             titulo: 'Normativa de protección de datos',
-            hash: 't_2_1',
+            hash: 't_2_2',
           },
         ],
       },

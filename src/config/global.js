@@ -110,11 +110,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -122,7 +117,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_11_123500_DU.zip',
+        download: 'downloads/CFA11_123500_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -193,8 +188,7 @@ export default {
     {
       referencia:
         'Comunidad de Madrid. (s.f.) Tratamiento del riesgo. Comunidad de Madrid.',
-      link:
-        'http://www.madrid.org/cs/StaticFiles/Emprendedores/Analisis_Riesgos/pages/pdf/metodologia/5TratamientodelRiesgo%28AR%29_es.pdf',
+      link: '',
     },
     {
       referencia:
